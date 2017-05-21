@@ -283,6 +283,8 @@ a:hover {color:{color:Post link hover};}
 	background-position: center;
 }
 
+.item, x:-moz-any-link {margin: 7px;}
+
 .item-bottom {
 	position: absolute;
 	bottom: 0px;
@@ -344,6 +346,7 @@ a:hover {color:{color:Post link hover};}
 	display: none;
 	text-align: center;
 	opacity: 0.9;
+	overflow-x: hidden;
 	overflow-y: auto;
 }
 
