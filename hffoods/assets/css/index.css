@@ -1,0 +1,32 @@
+h3 {
+	color: #8EC837;
+}
+
+#index-content-one {
+	height: 500px;
+}
+
+#index-content-one p {
+	text-transform: uppercase;
+	font-size: 10pt;
+	display: inline-block;
+	width: 400px;
+}
+
+#index-content-five {
+	height: 400px;
+}
+
+#index-content-seven img {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 15px;
+}
+#index-content-seven h1 {
+	font-size: 17pt;
+	color: #8EC837;
+}
+#index-content-seven p {
+	max-width: 300px;
+	display: inline-block;
+}
