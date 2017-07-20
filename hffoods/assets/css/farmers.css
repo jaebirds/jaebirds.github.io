@@ -1,0 +1,109 @@
+h3 {
+	color: #8EC837;
+}
+
+#farmers-content-one, #farmers-indiv-content-one {
+	height: 350px;
+	padding: 0;
+	overflow: hidden;
+}
+
+#farmers-content-one p, #farmers-indiv-content-one p {
+	text-transform: uppercase;
+	font-size: 10pt;
+	display: inline-block;
+	max-width: 400px;
+}
+
+#farmers-content-one .carousel-content, #farmers-indiv-content-one .carousel-content {z-index: 9;}
+
+.owl-carousel {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 0;
+	opacity: 0.3;
+}
+.owl-carousel .item {
+	height: 350px;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#farmers-indiv-content-one, #farmers-indiv-content-one .owl-carousel .item {height: 500px;}
+
+#farmers-content-three {
+	padding: 0;
+	height: 400px;
+	cursor: pointer;
+}
+
+#farmers-content-three .col-sm-3 {
+	height: 100%;
+	overflow: hidden;
+	padding: 0;
+}
+
+#farmers-content-three h3, #farmers-content-three a {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-size: 13pt;
+}
+
+#farmers-content-three .bg-img {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	//background-position: center center;
+	opacity: 0.5;
+	-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#farmers-content-three .col-sm-3:hover .bg-img {
+	-ms-transform: scale(1.2, 1.2);
+    -webkit-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+}
+
+.meet-farmer {
+	height: 400px;
+}
+
+.meet-farmer .bg-img {
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+}
+
+.farmers-indiv-content-img {
+	height: 350px;
+	background-size: cover;
+}
+
+.farmers-indiv-bottom-carousel {
+	position: relative;
+	opacity: 1;
+}
+.farmers-indiv-bottom-carousel .item {
+	height: 300px;
+	width: 34vw;
+}
+
+@media screen and (max-width: 778px) {
+	#farmers-content-three {height: auto;}
+	#farmers-content-three .col-sm-3 {
+		height: 200px;
+		margin: 0;
+	}
+	#farmers-content-three .bg-img {
+		height: 120%;
+		top: -20px;
+	}
+}
