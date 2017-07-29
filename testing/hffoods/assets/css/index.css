@@ -11,8 +11,9 @@ h3 {
 #index-content-one p {
 	text-transform: uppercase;
 	font-size: 10pt;
-	display: inline-block;
-	max-width: 400px;
+	padding: 10px;
+	margin: 0 auto;
+	max-width: 600px;
 }
 
 #index-content-one .carousel-content {z-index: 9;}

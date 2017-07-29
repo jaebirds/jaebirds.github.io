@@ -18,16 +18,16 @@ $(document).ready(function() {
 			
 			switch(boxType) {
 				case 'grass-fed-beef':
-					$("#category-name").html("<h3>Grass-fed</h3><h1>Beef</h1><hr>");
+					$("#category-name").html("<h3>Grass-fed</h3><h1>Beef</h1><hr><p>Our beef is 100% non-GMO grass-fed heritage beef cattle; guaranteed to be raised without the use of antibiotics, hormones, or pesticides. Smaller cuts packed with a purer, juicy taste.</p>");
 					break;
 				case 'certified-organic-beef':
-					$("#category-name").html("<h3>Certified Organic</h3><h1>Beef</h1><hr>");
+					$("#category-name").html("<h3>Certified Organic</h3><h1>Beef</h1><hr><p>Our certified organic beef is fed certified organic non-GMO grain and corn; guaranteed to be raised without the use of antibiotics, hormones, or pesticides.</p>");
 					break;
 				case 'chicken':
-					$("#category-name").html("<h1>Chicken</h1><hr>");
+					$("#category-name").html("<h1>Chicken</h1><hr><p>A selection of heritage breeds known for their savory taste.</p>");
 					break;
 				case 'certified-lamb':
-					$("#category-name").html("<h3>Certified</h3><h1>Lamb</h1><hr>");
+					$("#category-name").html("<h3>Certified</h3><h1>Lamb</h1><hr><p>Our lamb is 100% Canadian Arcott sheep and is certified organic.</p>");
 					break;
 				default:
 					$("#category-name").html("<h3>Grass-fed</h3><h1>Beef</h1><hr>");

@@ -10,6 +10,8 @@ function updateCartIcon() {
 	if (shoppingCart.length > 0) {
 		document.getElementById("shopping-cart-notification").innerHTML = shoppingCart.length;
 		document.getElementById("shopping-cart-notification").style.display = "block";
+	} else {
+		document.getElementById("shopping-cart-notification").style.display = "none";
 	}
 }
 	

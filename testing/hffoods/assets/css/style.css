@@ -255,6 +255,15 @@ hr.left-aligned {
 
 #footer span {display: block;}
 
+@media screen and (max-width: 1004px) {
+	#footer .col-sm-8 {
+		width: 50%;
+	}
+	#footer .col-sm-2 {
+		width: 25%;
+	}
+}
+
 @media screen and (max-width: 778px) {
 	
 	.content {padding: 15px;}
@@ -269,6 +278,8 @@ hr.left-aligned {
 }
 
 @media screen and (max-width: 600px) {
+	#footer .col-sm-8, #footer .col-sm-2 {width: 100%;}
+	
 	.disable-on-mobile {display: none !important;}
 	#top-bar .menu-item {
 		display: block !important;
