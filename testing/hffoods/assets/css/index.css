@@ -50,6 +50,9 @@ h3 {
 	color: #FFFFFF;
 	font-size: 13pt;
 }
+#index-content-three a {
+	color: inherit;
+}
 
 #index-content-three .bg-img {
 	position: absolute;
