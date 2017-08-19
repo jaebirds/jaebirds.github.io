@@ -111,6 +111,15 @@ h3 {
 	background-repeat: no-repeat;
 }
 
+#newsletter-signup {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	padding: 20px;
+	background: #eee;
+	z-index: 9999;
+}
+
 @media screen and (max-width: 778px) {
 	#index-content-three {height: auto;}
 	#index-content-three .col-sm-3 {

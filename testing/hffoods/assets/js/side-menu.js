@@ -2,7 +2,7 @@ function openSideMenu() {
 	$(document).ready(function() {
 		
 		//create side menu
-		$("html").append("<div id='side-menu'><a href='javascript:void(0)' class='closebtn' onclick='closeSideMenu()'>&times;</a><a href=''>Link 1</a></div>");
+		$("html").append("<div id='side-menu'><a href='javascript:void(0)' class='closebtn' onclick='closeSideMenu()'>&times;</a><a href='store.html'>Store</a><a href='philosophy.html'>Philosophy</a><a href='farmers.html'>Farmers</a><a href='recipes.html'>Recipes</a><a href='faq-about.html'>FAQ</a></div>");
 		document.getElementById("side-menu").style.width = "250px";
 	});
 }
