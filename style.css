@@ -282,6 +282,9 @@ a:hover {color:{color:Post link hover};}
 	background-repeat: no-repeat;
 	background-position: center;
 }
+.item img {
+	max-width: 100%;	
+}
 
 .item, x:-moz-any-link {margin: 7px;}
 
