@@ -42,8 +42,7 @@ body {
     line-height: 15px;
     color: #333333;
     background-color: #FFFFFF;
-	background-image:url('http://static.tumblr.com/o4povtk/4two5hq41/bg1.jpg');
-	background-image: url('http://static.tumblr.com/o4povtk/pZ0opvjc0/emanuel-hahn-195190-min.jpg');
+	background-image: url('/images/emanuel-hahn-195190-min.jpg');
 	background-attachment:fixed;
 	background-size:cover;
 	background-repeat:no-repeat;
@@ -117,7 +116,7 @@ a:hover {color:{color:Post link hover};}
 	{block:IfSidebarClosedOnStart}margin-left:-100px;{/block:IfSidebarClosedOnStart}
 	top:50%;
 	margin-top:-40px;
-	background-image:url('http://static.tumblr.com/o4povtk/tBFo5htkv/arrow2.png');
+	background-image:url('/images/arrow2.png');
 	background-size:cover;
 	opacity:1.0;
 	z-index:5;
@@ -135,7 +134,7 @@ a:hover {color:{color:Post link hover};}
 	{block:IfSidebarClosedOnStart}left:0px;{/block:IfSidebarClosedOnStart}
 	height:30px;
 	width:70px;
-	background-image:url('http://static.tumblr.com/o4povtk/XiXo5hthe/arrow.png');
+	background-image:url('/images/arrow.png');
 	background-size:contain;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -278,7 +277,7 @@ a:hover {color:{color:Post link hover};}
 .item {
 	margin: 8px;
 	background-color: #EEEEEE;
-	background-image: url('http://static.tumblr.com/o4povtk/TnKoq9pbb/loader.gif');
+	background-image: url('/images/loader.gif');
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -366,7 +365,7 @@ a:hover {color:{color:Post link hover};}
 	height: 120px;
 	margin: 10px auto;
 	border-radius: 120px;
-	background-image: url('https://pbs.twimg.com/profile_images/895094126965919744/ncYz1pFJ_400x400.jpg');
+	background-image: url('/images/ncYz1pFJ_400x400.jpg');
 	background-size: cover;
 }
 
