@@ -165,7 +165,7 @@ a {
 #sidebarbg h3 {
 	font-size: 16pt;
 	padding: 0 25px;
-	font-variant: small-caps;
+	//font-variant: small-caps;
 }
 
 .sort-menu {
