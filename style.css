@@ -165,7 +165,6 @@ a {
 #sidebarbg h3 {
 	font-size: 16pt;
 	padding: 0 25px;
-	//font-variant: small-caps;
 }
 
 .sort-menu {
@@ -219,12 +218,10 @@ a {
 	font-size: 20pt;
 }
 
-.item, .item iframe {
-	width: 290px;
-}
-
 .item {
-	margin: 8px;
+	width: calc(25% - 11px);
+	max-width: 500px;
+	margin-bottom: 8px;
 	background-color: #EEE;
 	background-image: url('/images/loader.gif');
 	background-repeat: no-repeat;
@@ -240,6 +237,20 @@ a {
 }
 
 .item img, .item video, .item iframe {margin-bottom: -3px; /* fix for strip on bottom */}
+
+.item .video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+.item .video-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 
 .item video {
 	max-width: 100%;
@@ -463,6 +474,18 @@ figure.shine:hover::before {
 	text-align: center;
 	font-weight: bold;
 	display: none;
+}
+
+@media screen and (max-width: 1845px) {
+	.item {width: calc(33% - 8px);}
+}
+
+@media screen and (max-width: 1350px) {
+	.item {width: calc(49% - 5px);}
+}
+
+@media screen and (max-width: 920px) {
+	.item {width: calc(100% - 9px);}
 }
 
 @media screen and (max-width: 790px) {

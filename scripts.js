@@ -19,18 +19,35 @@ $(document).ready(function() {
 		}
 	})(jQuery);
 
-	var $isotope = $('#content').isotope({
+	var isotopeSettings = {
 		itemSelector: '.item',
 		layoutMode: 'masonry',
 		filter: '.featured',
-		masonry: {}
-	});
+		percentPosition: true,
+		masonry: {
+			columnWidth: '.item',
+			gutter: 8
+		}
+	};
 
-	$isotope.isotope('layout');
+	var $isotope = $('#content').isotope(isotopeSettings);
 
-	$isotope.imagesLoaded().progress(function() {
+	$isotope.imagesLoaded(function() {
 		$isotope.isotope('layout');
 	});
+
+	  
+	function onLoadeddata(event) {
+		console.log("onLoadeddata called");
+		$isotope.isotope('layout');
+	}
+	
+	$isotope.find('video').each( function(i, video) {
+		video.play();
+		$(video).on('loadeddata', onLoadeddata);
+	});
+
+
 	
 	var $selectedSort = $('#default-sort');
 	
