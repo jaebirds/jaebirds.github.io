@@ -236,7 +236,7 @@ a {
     transition: all 0.3s ease-in-out;
 }
 
-.item img, .item video, .item iframe {margin-bottom: -3px; /* fix for strip on bottom */}
+.item img, .item video, .item iframe {margin-bottom: -4px; /* fix for strip on bottom */}
 
 .item .video-container {
 	position: relative;
