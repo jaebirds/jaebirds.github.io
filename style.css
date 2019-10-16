@@ -254,6 +254,7 @@ a {
 
 .item video {
 	max-width: 100%;
+	width: 100%;
 }
 
 .item, x:-moz-any-link {margin: 7px;}
@@ -286,7 +287,7 @@ a {
 	background-color: #FFF;
 	background-image: none;
 	display: table;
-	height: 145px;
+	height: 200px;
 }
 .end-card p {
 	padding: 5px;
