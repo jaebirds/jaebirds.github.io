@@ -6,23 +6,25 @@
 
 <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Calligraffitti" rel="stylesheet">
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+<link rel="stylesheet" href="/css/lightbox.min.css" />
 
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/ui-lightness/jquery-ui.css" />
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 
 <script async src="//www.googletagmanager.com/gtag/js?id=UA-112928899-1"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
 
-  gtag('config', 'UA-112928899-1');
+	gtag('config', 'UA-112928899-1');
 </script>
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="/css/style.css" />
 <script>
-$( document ).tooltip({
+$(document).tooltip({
     track: true,
     tooltipClass: "tooltiptheme",
 	items: "*[title]"
@@ -47,10 +49,11 @@ $( document ).tooltip({
 <div id="overlay">
 	<div id="topbar">
 		<div class="right-aligned">
-			<a href="https://twitter.com/jaebirdsarts" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-			<a href="https://instagram.com/jaebirdsarts" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-			<a href="https://www.youtube.com/user/julialaurenxoxo" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-			<a href="https://society6.com/jaebirds" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+			<a href="https://twitter.com/jaebirdsarts" target="_blank"><i class="fab fa-twitter" title="Twitter"></i></a>
+			<a href="https://instagram.com/jaebirdsarts" target="_blank"><i class="fab fa-instagram" aria-hidden="true" title="Instagram"></i></a>
+			<a href="https://twitch.tv/jaebirdslive" target="_blank"><i class="fab fa-twitch" aria-hidden="true" title="Twitch"></i></a>
+			<a href="https://www.youtube.com/user/julialaurenxoxo" target="_blank"><i class="fab fa-youtube" aria-hidden="true" title="YouTube"></i></a>
+			<a href="https://www.redbubble.com/people/jaebirds/shop" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true" title="RedBubble Store"></i></a>
 		</div>
 		<div id="topbarcontent">
 			<div class="menubutton" id="work-button">Work</div></a>
@@ -61,17 +64,18 @@ $( document ).tooltip({
 	<div id="topbarmask"></div>
 	
 	<div id="sidebarbg">
-		<h3>Sort Content</h3>
+		<h3>Sort Work</h3>
 		<ul class="sort-menu">
-			<li class="selected" id="default-sort" data-id=".featured">featured</li>
-			<li data-id=".animation">animations</li>
+			<li class="selected" id="default-sort" data-id=".featured">Featured</li>
+			<li data-id=".animation">Animations</li>
 			<li class="sub-menu" data-id=".social-media-anim">Social Media Ads</li>
 			<li class="sub-menu" data-id=".kidlit-teenlit">KidLit TV / TeenLit TV</li>
 			<li class="sub-menu" data-id=".youtube-fananim">YouTube Fan Animations</li>
-			<li data-id=".art">art</li>
+			<li data-id=".editing">Video Editing</li>
+			<li data-id=".art">Art</li>
 			<li class="sub-menu" data-id=".digital-art">Digital Art & Paintings</li>
 			<li class="sub-menu" data-id=".3D-art">3D Art</li>
-			<li data-id=".web">web</li>
+			<li data-id=".web">Web</li>
 			<li class="sub-menu" data-id=".company-webpages">Company Webpages</li>
 			<li class="sub-menu" data-id=".free-code-camp">Free Code Camp</li>
 			<li class="sub-menu" data-id=".tumblr-themes">Tumblr Themes</li>
@@ -85,8 +89,8 @@ $( document ).tooltip({
 	<h1>About Me</h1>
 	<figure class="shine"><div class="profile-image"></div></figure>
 	<div class="bottom-bar">
-		<a href="https://twitter.com/jaebirdsarts" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-		<a href="https://www.youtube.com/user/julialaurenxoxo" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+		<a href="https://twitter.com/jaebirdsarts" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+		<a href="https://www.youtube.com/user/julialaurenxoxo" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a>
 	</div>
 	<div class="about-container">
 		<div class="about-item">
@@ -106,7 +110,8 @@ $( document ).tooltip({
 					<li>Animation / Graphics
 						<ul>
 							<li><i class="fa fa-picture-o" aria-hidden="true"></i> After Effects</li>
-							<li><i class="fa fa-picture-o" aria-hidden="true"></i> Cinema 4D</li>
+							<li><i class="fa fa-picture-o" aria-hidden="true"></i> Vegas Pro</li>
+							<li><i class="fa fa-picture-o" aria-hidden="true"></i> Premiere Pro</li>
 							<li><i class="fa fa-picture-o" aria-hidden="true"></i> Photoshop</li>
 						</ul>
 					</li>
@@ -115,8 +120,9 @@ $( document ).tooltip({
 							<li><i class="fa fa-code" aria-hidden="true"></i> HTML</li>
 							<li><i class="fa fa-code" aria-hidden="true"></i> CSS</li>
 							<li><i class="fa fa-code" aria-hidden="true"></i> SCSS</li>
-							<li><i class="fa fa-code" aria-hidden="true"></i> jQuery</li>
 							<li><i class="fa fa-code" aria-hidden="true"></i> Javascript</li>
+							<li><i class="fa fa-code" aria-hidden="true"></i> jQuery</li>
+							<li><i class="fa fa-code" aria-hidden="true"></i> PHP</li>
 						</ul>
 					</li>
 				</ul>
@@ -173,400 +179,602 @@ $( document ).tooltip({
 
 <div id="content">
 
-		<div class="item art digital-art featured y2019">
-			<!-- York Painting -  January 2019 -->
-			<img src="/images/york watermarked.png">
-			<div class="item-bottom">
-				<a href="https://twitter.com/jaebirdsarts/status/1087757046936731650" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-				<a href="https://www.instagram.com/p/Bs_BPYKjm4q/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-				<a href="https://www.redbubble.com/people/jaebirds/works/36475201-francis-york-morgan" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-			</div>
-		</div>
+	<div class="item editing y2019">
+		<!-- BunnyFuFu test edit -->
+		<div class="video-container"><iframe src="https://www.youtube.com/embed/cu0eRYa3Ank" frameborder="0" allowfullscreen></iframe></div>
+	</div>
 
-	<div class="item social-media-anim animation featured y2018">
-		<!-- Vidsy SO MANY DEALS Brief - December 2018 -->
-		<video controls>
-			<source src="/videos/somanydeals_1.mp4" />
+	<div class="item social-media-anim animation featured y2019">
+		<!-- Vidsy DEADPOOL Brief - May 2019 -->
+		<video controls preload="none" muted>
+			<source src="/videos/deadpool_1.mp4" />
 		</video>
+	</div>
+
+	<div class="item social-media-anim animation y2019">
+		<!-- Vidsy DEADPOOL Brief - May 2019 -->
+		<video controls preload="none" muted>
+			<source src="/videos/deadpool_2.mp4" />
+		</video>
+	</div>
+
+	<div class="item social-media-anim animation y2019">
+		<!-- Vidsy BROWS ON FLEEK Brief - May 2019 -->
+		<video controls preload="none" muted>
+			<source src="/videos/browsonfleek_1.mp4" />
+		</video>
+	</div>
+
+	<div class="item social-media-anim animation y2019">
+		<!-- Vidsy BROWS ON FLEEK Brief - May 2019 -->
+		<video controls preload="none" muted>
+			<source src="/videos/browsonfleek_2.mp4" />
+		</video>
+	</div>
+
+	<div class="item social-media-anim animation featured y2019">
+		<!-- Vidsy FATHERS DAY Brief - May 2019 -->
+		<video controls preload="none" muted>
+			<source src="/videos/fathersday_1.mp4" />
+		</video>
+	</div>
+
+	<div class="item social-media-anim animation y2019">
+		<!-- Vidsy FATHERS DAY Brief - May 2019 -->
+		<video controls preload="none" muted>
+			<source src="/videos/fathersday_2.mp4" />
+		</video>
+	</div>
+
+	<div class="item social-media-anim animation featured y2019">
+		<!-- Vidsy LIONS VS DRAGONS Brief - May 2019 -->
+		<video controls preload="none" muted>
+			<source src="/videos/lionsvsdragons_3.mp4" />
+		</video>
+	</div>
+
+	<div class="item social-media-anim animation y2019">
+		<!-- Vidsy LIONS VS DRAGONS Brief - May 2019 -->
+		<video controls preload="none" muted>
+			<source src="/videos/lionsvsdragons_2.mp4" />
+		</video>
+	</div>
+
+	<div class="item social-media-anim animation editing y2019">
+		<!-- Vidsy LIONS VS DRAGONS Brief - May 2019 -->
+		<video controls preload="none" muted>
+			<source src="/videos/lionsvsdragons_1.mp4" />
+		</video>
+	</div>
+
+	<div class="item social-media-anim animation featured y2019">
+		<!-- Vidsy JOIN THE CLUB Brief - April 2019 -->
+		<video controls preload="none" muted>
+			<source src="/videos/jointheclub_1.mp4" />
+		</video>
+	</div>
+
+	<div class="item social-media-anim animation y2019">
+		<!-- Vidsy JOIN THE CLUB Brief - April 2019 -->
+		<video controls preload="none" muted>
+			<source src="/videos/jointheclub_2.mp4" />
+		</video>
+	</div>
+
+	<div class="item art digital-art featured y2019">
+		<!-- Giorno Painting -  April 2019 -->
+		<a href="/images/giorno watermarked.png" data-lightbox="giorno-painting" data-title="Digital painting of Giorno Giovanna from JoJo's Bizarre Adventure: Golden Wind.">
+			<img src="/images/giorno watermarked.png">
+		</a>
+		<div class="item-bottom">
+			<a href="https://twitter.com/jaebirdsarts/status/1122915986041122816" target="_blank"><i class="fab fa-twitter" aria-hidden="true" title="Twitter"></i></a>
+			<a href="https://www.instagram.com/p/BxFv2UUAuxn/" target="_blank"><i class="fab fa-instagram" aria-hidden="true" title="Instagram"></i></a>
+			<a href="https://www.redbubble.com/people/jaebirds/works/38617284-giorno-giovanna" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true" title="RedBubble Store"></i></a>
+		</div>
+	</div>
+
+	<div class="item social-media-anim animation y2019">
+		<!-- Vidsy STAY HUNGRY Brief - January 2019 -->
+		<video controls preload="none" muted>
+			<source src="/videos/stayhungry_1.mp4" />
+		</video>
+	</div>
+
+	<div class="item social-media-anim animation featured y2019">
+		<!-- Vidsy ALL THE CLASSICS Brief - January 2019 -->
+		<video controls preload="none" muted>
+			<source src="/videos/alltheclassics_1.mp4" />
+		</video>
+	</div>
+
+	<div class="item social-media-anim animation y2019">
+		<!-- Vidsy ALL THE CLASSICS Brief - January 2019 -->
+		<video controls preload="none" muted>
+			<source src="/videos/alltheclassics_3.mp4" />
+		</video>
+	</div>
+
+	<div class="item social-media-anim animation editing featured y2019">
+		<!-- Vidsy SEX ED Brief - January 2019 -->
+		<video controls preload="none" muted>
+			<source src="/videos/sexed_1.m4v" />
+		</video>
+	</div>
+
+	<div class="item social-media-anim animation featured y2019">
+		<!-- Vidsy THE BIG SECRET Brief - January 2019 -->
+		<video controls preload="none" muted>
+			<source src="/videos/thebigsecret_2.mp4" />
+		</video>
+	</div>
+
+	<div class="item art digital-art featured y2019">
+		<!-- York Painting -  January 2019 -->
+		<a href="/images/york watermarked.png" data-lightbox="york-painting" data-title="Digital painting of Francis York Morgan from Deadly Premonition.">
+			<img src="/images/york watermarked.png">
+		</a>
+		<div class="item-bottom">
+			<a href="https://twitter.com/jaebirdsarts/status/1087757046936731650" target="_blank"><i class="fab fa-twitter" aria-hidden="true" title="Twitter"></i></a>
+			<a href="https://www.instagram.com/p/Bs_BPYKjm4q/" target="_blank"><i class="fab fa-instagram" aria-hidden="true" title="Instagram"></i></a>
+			<a href="https://www.redbubble.com/people/jaebirds/works/36475201-francis-york-morgan" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true" title="RedBubble Store"></i></a>
+		</div>
 	</div>
 
 	<div class="item social-media-anim animation featured y2018">
 		<!-- Vidsy SO MANY DEALS Brief - December 2018 -->
-		<video controls>
+		<video controls preload="none" muted>
+			<source src="/videos/somanydeals_1.mp4" />
+		</video>
+	</div>
+
+	<div class="item social-media-anim animation y2018">
+		<!-- Vidsy SO MANY DEALS Brief - December 2018 -->
+		<video controls preload="none" muted>
 			<source src="/videos/somanydeals_3.mp4" />
 		</video>
 	</div>
 
 	<div class="item social-media-anim animation y2018">
-			<!-- Vidsy SO MANY DEALS Brief - December 2018 -->
-			<video controls>
-				<source src="/videos/somanydeals_2.mp4" />
-			</video>
-		</div>
+		<!-- Vidsy SO MANY DEALS Brief - December 2018 -->
+		<video controls preload="none" muted>
+			<source src="/videos/somanydeals_2.mp4" />
+		</video>
+	</div>
+
+	<div class="item editing y2018">
+		<!-- DBH edited episode -->
+		<div class="video-container"><iframe src="https://www.youtube.com/embed/icjCyRNMpMA" frameborder="0" allowfullscreen></iframe></div>
+	</div>
 
 	<div class="item art digital-art featured y2018">
 		<!-- Grandpa Painting -  November 2018 -->
-		<img src="/images/grandpa painting.png">
+		<a href="/images/grandpa painting.png" data-lightbox="grandpa-painting" data-title="Digital painting of my late grandfather.">
+			<img src="/images/grandpa painting.png">
+		</a>
 	</div>
 
 	<div class="item art digital-art featured y2018">
 		<!-- Shouto Painting -  October 2018 -->
-		<img src="/images/shouto watermarked.png">
+		<a href="/images/shouto watermarked.png" data-lightbox="shouto-painting" data-title="Digital painting of Todoroki Shouto from My Hero Academia.">
+			<img src="/images/shouto watermarked.png">
+		</a>
 		<div class="item-bottom">
-			<a href="https://twitter.com/jaebirdsarts/status/1051155715467988992" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-			<a href="https://www.instagram.com/p/Bo4zj4Qj0Hw/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-			<a href="https://www.redbubble.com/people/jaebirds/works/34438214-shouto-todoroki" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+			<a href="https://twitter.com/jaebirdsarts/status/1051155715467988992" target="_blank"><i class="fab fa-twitter" aria-hidden="true" title="Twitter"></i></a>
+			<a href="https://www.instagram.com/p/Bo4zj4Qj0Hw/" target="_blank"><i class="fab fa-instagram" aria-hidden="true" title="Instagram"></i></a>
+			<a href="https://www.redbubble.com/people/jaebirds/works/34438214-shouto-todoroki" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true" title="RedBubble Store"></i></a>
 		</div>
 	</div>
 
 	<div class="item art digital-art y2018">
 		<!-- Dolores Painting -  September 2018 -->
-		<img src="/images/dolores.png">
+		<a href="/images/dolores.png" data-lightbox="dolores-painting" data-title="Digital painting of Dolores from Westworld.">
+			<img src="/images/dolores.png">
+		</a>
 		<div class="item-bottom">
-			<a href="https://twitter.com/jaebirdsarts/status/1046141949730852865" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-			<a href="https://www.instagram.com/p/BoUwvbyllhk/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-			<a href="https://www.redbubble.com/people/jaebirds/works/34211503-dolores-abernathy" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+			<a href="https://twitter.com/jaebirdsarts/status/1046141949730852865" target="_blank"><i class="fab fa-twitter" aria-hidden="true" title="Twitter"></i></a>
+			<a href="https://www.instagram.com/p/BoUwvbyllhk/" target="_blank"><i class="fab fa-instagram" aria-hidden="true" title="Instagram"></i></a>
+			<a href="https://www.redbubble.com/people/jaebirds/works/34211503-dolores-abernathy" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true" title="RedBubble Store"></i></a>
 		</div>
 	</div>
 
 	<div class="item art digital-art y2018">
 		<!-- Jak & Daxter Painting -  April 2018 -->
-		<img src="/images/jak and dax.png">
+		<a href="/images/jak and dax.png" data-lightbox="jak-dax-painting" data-title="Digital painting of Jak and Daxter from Jak II.">
+			<img src="/images/jak and dax.png">
+		</a>
 		<div class="item-bottom">
-			<a href="https://twitter.com/jaebirdsarts/status/1035195703381901313" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-			<a href="https://www.instagram.com/p/BiAtaJsldhG/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-			<a href="https://www.redbubble.com/people/jaebirds/works/31324790-jak-and-daxter" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+			<a href="https://twitter.com/jaebirdsarts/status/1035195703381901313" target="_blank"><i class="fab fa-twitter" aria-hidden="true" title="Twitter"></i></a>
+			<a href="https://www.instagram.com/p/BiAtaJsldhG/" target="_blank"><i class="fab fa-instagram" aria-hidden="true" title="Instagram"></i></a>
+			<a href="https://www.redbubble.com/people/jaebirds/works/31324790-jak-and-daxter" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true" title="RedBubble Store"></i></a>
 		</div>
 	</div>
 
 	<div class="item art digital-art y2018">
 		<!-- Ann Takamaki Painting -  April 2018 -->
-		<img src="/images/ann.png">
+		<a href="/images/ann.png" data-lightbox="ann-painting" data-title="Digital painting of Takamaki Ann from Persona 5.">
+			<img src="/images/ann.png">
+		</a>
 		<div class="item-bottom">
-			<a href="https://twitter.com/jaebirdsarts/status/1017085543069507584" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-			<a href="https://www.instagram.com/p/BhO4FXVF7mp/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-			<a href="https://www.redbubble.com/people/jaebirds/works/30899015-lady-ann" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+			<a href="https://twitter.com/jaebirdsarts/status/1017085543069507584" target="_blank"><i class="fab fa-twitter" aria-hidden="true" title="Twitter"></i></a>
+			<a href="https://www.instagram.com/p/BhO4FXVF7mp/" target="_blank"><i class="fab fa-instagram" aria-hidden="true" title="Instagram"></i></a>
+			<a href="https://www.redbubble.com/people/jaebirds/works/30899015-lady-ann" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true" title="RedBubble Store"></i></a>
 		</div>
 	</div>
 
 	<div class="item art digital-art y2018">
 		<!-- Luigi Balloon World -  March 2018 -->
-		<img src="/images/luigi.png">
+		<a href="/images/luigi.png" data-lightbox="luigi-painting" data-title="Digital painting of Luigi from Super Mario Odyssey.">
+			<img src="/images/luigi.png">
+		</a>
 		<div class="item-bottom">
-			<a href="https://twitter.com/jaebirdsarts/status/1015606458124263425" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-			<a href="https://www.instagram.com/p/Bgjm1xADb4E/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-			<a href="https://www.redbubble.com/people/jaebirds/works/30714922-luigis-balloon-world" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+			<a href="https://twitter.com/jaebirdsarts/status/1015606458124263425" target="_blank"><i class="fab fa-twitter" aria-hidden="true" title="Twitter"></i></a>
+			<a href="https://www.instagram.com/p/Bgjm1xADb4E/" target="_blank"><i class="fab fa-instagram" aria-hidden="true" title="Instagram"></i></a>
+			<a href="https://www.redbubble.com/people/jaebirds/works/30714922-luigis-balloon-world" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true" title="RedBubble Store"></i></a>
 		</div>
 	</div>
 
 	<div class="item art 3D-art featured y2017">
 		<!-- Game Maker lowpoly -  October 2017 -->
-		<img src="/images/game maker.png">
+		<a href="/images/game maker.png" data-lightbox="game-maker-art" data-title='3D render named "Game Maker". Created with Cinema 4D.'>
+			<img src="/images/game maker.png">
+		</a>
 		<div class="item-bottom">
-			<a href="https://twitter.com/jaebirdsarts/status/1011641852854984704" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-			<a href="https://www.instagram.com/p/BZuSKnkFwkn/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-			<a href="https://society6.com/product/game-maker_print" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+			<a href="https://twitter.com/jaebirdsarts/status/1011641852854984704" target="_blank"><i class="fab fa-twitter" aria-hidden="true" title="Twitter"></i></a>
+			<a href="https://www.instagram.com/p/BZuSKnkFwkn/" target="_blank"><i class="fab fa-instagram" aria-hidden="true" title="Instagram"></i></a>
+			<a href="https://www.redbubble.com/people/jaebirds/works/28201473-game-maker" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true" title="RedBubble Store"></i></a>
 		</div>
 	</div>
 
 	<div class="item art digital-art y2017">
 		<!-- Clementine art -  September 2017 -->
-		<img src="/images/clementine.png">
+		<a href="/images/clementine.png" data-lightbox="clementine-painting" data-title="Digital painting of Clementine from Telltale's The Walking Dead series.">
+			<img src="/images/clementine.png">
+		</a>
 		<div class="item-bottom">
-			<a href="https://twitter.com/jaebirdsarts/status/1010361380300574727" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-			<a href="https://www.instagram.com/p/BZmqNSelFAV/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-			<a href="https://www.redbubble.com/people/jaebirds/works/28245594-clementine" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+			<a href="https://twitter.com/jaebirdsarts/status/1010361380300574727" target="_blank"><i class="fab fa-twitter" aria-hidden="true" title="Twitter"></i></a>
+			<a href="https://www.instagram.com/p/BZmqNSelFAV/" target="_blank"><i class="fab fa-instagram" aria-hidden="true" title="Instagram"></i></a>
+			<a href="https://www.redbubble.com/people/jaebirds/works/28245594-clementine" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true" title="RedBubble Store"></i></a>
 		</div>
 	</div>
 
 	<div class="item art 3D-art y2017">
 		<!-- Oasis lowpoly -  September 2017 -->
-		<img src="/images/oasis.png">
+		<a href="/images/oasis.png" data-lightbox="oasis-art" data-title='3D render named "Oasis". Created with Cinema 4D.'>
+			<img src="/images/oasis.png">
+		</a>
 		<div class="item-bottom">
-			<a href="https://twitter.com/jaebirdsarts/status/1010002444716335104" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-			<a href="https://www.instagram.com/p/BZkNe6WFYE2/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-			<a href="https://society6.com/product/oasis793546_print" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+			<a href="https://twitter.com/jaebirdsarts/status/1010002444716335104" target="_blank"><i class="fab fa-twitter" aria-hidden="true" title="Twitter"></i></a>
+			<a href="https://www.instagram.com/p/BZkNe6WFYE2/" target="_blank"><i class="fab fa-instagram" aria-hidden="true" title="Instagram"></i></a>
+			<a href="https://www.redbubble.com/people/jaebirds/works/26721228-oasis" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true" title="RedBubble Store"></i></a>
 		</div>
 	</div>
 
 	<div class="item web free-code-camp y2017">
 		<!-- FCC Local Weather -  June 3, 2017 -->
-		<img src="/images/2zpmn37.png">
+		<a href="/images/2zpmn37.png" data-lightbox="fcc-local-weather" data-title=''>
+			<img src="/images/2zpmn37.png">
+		</a>
 		<div class="item-bottom">
-			<a href="https://codepen.io/jaebirds/full/EZyzGN/" target="_blank">Local Weather <i class="fa fa-codepen" aria-hidden="true"></i></a>
+			<a href="https://codepen.io/jaebirds/full/EZyzGN/" target="_blank" title="Codepen">Local Weather <i class="fab fa-codepen" aria-hidden="true"></i></a>
 		</div>
 	</div>
 
 	<div class="item web eigen-ads company-webpages y2017 featured">
 		<!-- Eigen Ads Page - Unk Date -->
-		<img src="/images/eigenindex.png">
+		<a href="/images/eigenindex.png" data-lightbox="eigen-ads-site" data-title=''>
+			<img src="/images/eigenindex.png">
+		</a>
 		<div class="item-bottom">
-			<a href="/eigenads/index.html" target="_blank">Preview <i class="fa fa-external-link" aria-hidden="true"></i></a>
+			<a href="/eigenads/index.html" target="_blank">Preview <i class="fa fa-external-link-alt" aria-hidden="true"></i></a>
 		</div>
 	</div>
 	
 	<div class="item web free-code-camp y2017">
 		<!-- Tribute Page -  May 21, 2017 -->
-		<img src="/images/se9em8.png">
+		<a href="/images/se9em8.png" data-lightbox="fcc-tribute-page" data-title=''>
+			<img src="/images/se9em8.png">
+		</a>
 		<div class="item-bottom">
-			<a href="https://codepen.io/jaebirds/full/NjEwvm/" target="_blank">Tribute Page <i class="fa fa-codepen" aria-hidden="true"></i></a>
+			<a href="https://codepen.io/jaebirds/full/NjEwvm/" target="_blank" title="Codepen">Tribute Page <i class="fab fa-codepen" aria-hidden="true"></i></a>
 		</div>
 	</div>
 
 	<div class="item art 3D-art y2017 featured">
 		<!-- Books lowpoly -  May 10, 2017 -->
-		<img src="/images/books.png">
+		<a href="/images/books.png" data-lightbox="books-art" data-title='3D render named "Books". Created with Cinema 4D.'>
+			<img src="/images/books.png">
+		</a>
 		<div class="item-bottom">
-			<a href="https://jaebirds.tumblr.com/post/160525337471/have-some-books-made-this-for-teenlit-tvs" target="_blank"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
-			<a href="http://jaebirds.deviantart.com/art/Books-680599264" target="_blank"><i class="fa fa-deviantart" aria-hidden="true"></i></a>
-			<a href="https://www.redbubble.com/people/jaebirds/works/26404359-books" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+			<a href="https://jaebirds.tumblr.com/post/160525337471/have-some-books-made-this-for-teenlit-tvs" target="_blank"><i class="fab fa-tumblr" aria-hidden="true" title="Tumblr"></i></a>
+			<a href="http://jaebirds.deviantart.com/art/Books-680599264" target="_blank"><i class="fab fa-deviantart" aria-hidden="true" title="DeviantArt"></i></a>
+			<a href="https://www.redbubble.com/people/jaebirds/works/26404359-books" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true" title="RedBubble Store"></i></a>
 		</div>
 	</div>
 	
 	<div class="item animation kidlit-teenlit y2017">
 		<!-- Young At Art intro - May 2, 2017 -->
-		<iframe src="https://www.youtube.com/embed/mnLmH3lmafA" frameborder="0" allowfullscreen></iframe>
+		<div class="video-container"><iframe src="https://www.youtube.com/embed/mnLmH3lmafA" frameborder="0" allowfullscreen></iframe></div>
 	</div>
 	
 	<div class="item animation channel-intro y2017">
 		<!-- Yugioh Duel Links Intro - April 29, 2017 -->
-		<iframe src="https://www.youtube.com/embed/oK1JT5r5_3U" frameborder="0" allowfullscreen></iframe>
+		<div class="video-container"><iframe src="https://www.youtube.com/embed/oK1JT5r5_3U" frameborder="0" allowfullscreen></iframe></div>
 	</div>
 	
 	<div class="item animation youtube-fananim y2017 featured">
 		<!-- Nier here with me - April 26, 2017 -->
-		<iframe src="https://www.youtube.com/embed/8kamQg3Hnqg" frameborder="0" allowfullscreen></iframe>
+		<div class="video-container"><iframe src="https://www.youtube.com/embed/8kamQg3Hnqg" frameborder="0" allowfullscreen></iframe></div>
 	</div>
 	
 	<div class="item art 3D-art y2017">
 		<!-- Snow Wolves lowpoly - April 19, 2017 -->
-		<img src="/images/snowwolves.jpg">
+		<a href="/images/snowwolves.jpg" data-lightbox="snow-wolves-art" data-title='3D render named "Snow Wolves". Created with Cinema 4D.'>
+			<img src="/images/snowwolves.jpg">
+		</a>
 		<div class="item-bottom">
-			<a href="https://jaebirds.tumblr.com/post/159765243166/snow-wolves" target="_blank"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
-			<a href="http://jaebirds.deviantart.com/art/Snow-Wolf-675948401" target="_blank"><i class="fa fa-deviantart" aria-hidden="true"></i></a>
-			<a href="https://www.redbubble.com/people/jaebirds/works/26126014-snow-wolf" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+			<a href="https://jaebirds.tumblr.com/post/159765243166/snow-wolves" target="_blank"><i class="fab fa-tumblr" aria-hidden="true" title="Tumblr"></i></a>
+			<a href="http://jaebirds.deviantart.com/art/Snow-Wolf-675948401" target="_blank"><i class="fab fa-deviantart" aria-hidden="true" title="DeviantArt"></i></a>
+			<a href="https://www.redbubble.com/people/jaebirds/works/26126014-snow-wolf" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true" title="RedBubble Store"></i></a>
 		</div>
 	</div>
 	
 	<div class="item art 3D-art y2017 featured">
 		<!-- Up High lowpoly - May 4, 2017 -->
-		<img src="/images/uphigh.jpg">
+		<a href="/images/uphigh.jpg" data-lightbox="up-high-art" data-title='3D render named "Up High". Created with Cinema 4D.'>
+			<img src="/images/uphigh.jpg">
+		</a>
 		<div class="item-bottom">
-			<a href="https://jaebirds.tumblr.com/post/159190114926/theres-something-really-nice-about-foggy-scenes" target="_blank"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
-			<a href="http://jaebirds.deviantart.com/art/Up-High-673095748" target="_blank"><i class="fa fa-deviantart" aria-hidden="true"></i></a>
-			<a href="https://www.redbubble.com/people/jaebirds/works/25963998-up-high" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+			<a href="https://jaebirds.tumblr.com/post/159190114926/theres-something-really-nice-about-foggy-scenes" target="_blank"><i class="fab fa-tumblr" aria-hidden="true" title="Tumblr"></i></a>
+			<a href="http://jaebirds.deviantart.com/art/Up-High-673095748" target="_blank"><i class="fab fa-deviantart" aria-hidden="true" title="DeviantArt"></i></a>
+			<a href="https://www.redbubble.com/people/jaebirds/works/25963998-up-high" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true" title="RedBubble Store"></i></a>
 		</div>
 	</div>
 	
 	<div class="item animation kidlit-teenlit y2017 featured">
 		<!-- TeenLit Logo - March 25, 2017 -->
-		<iframe src="https://www.youtube.com/embed/xGGaGeiMnUY" frameborder="0" allowfullscreen></iframe>
+		<div class="video-container"><iframe src="https://www.youtube.com/embed/xGGaGeiMnUY" frameborder="0" allowfullscreen></iframe></div>
 	</div>
 	
 	<div class="item art 3D-art y2017">
 		<!-- Lil Plant - March 21, 2017 -->
-		<img src="/images/plant.jpg">
+		<a href="/images/plant.jpg" data-lightbox="plant-art" data-title='3D render named "Plant". Created with Cinema 4D.'>
+			<img src="/images/plant.jpg">
+		</a>
 		<div class="item-bottom">
-			<a href="https://jaebirds.tumblr.com/post/158689366931/the-plant-is-smol" target="_blank"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
-			<a href="http://jaebirds.deviantart.com/art/Plant-670613868" target="_blank"><i class="fa fa-deviantart" aria-hidden="true"></i></a>
-			<a href="https://www.redbubble.com/people/jaebirds/works/25801588-plant" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+			<a href="https://jaebirds.tumblr.com/post/158689366931/the-plant-is-smol" target="_blank"><i class="fab fa-tumblr" aria-hidden="true" title="Tumblr"></i></a>
+			<a href="http://jaebirds.deviantart.com/art/Plant-670613868" target="_blank"><i class="fab fa-deviantart" aria-hidden="true" title="DeviantArt"></i></a>
+			<a href="https://www.redbubble.com/people/jaebirds/works/25801588-plant" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true" title="RedBubble Store"></i></a>
 		</div>
 	</div>
 	
 	<div class="item art 3D-art y2017">
 		<!-- Reflect lowpoly - March 17, 2017 -->
-		<img src="/images/reflection.jpg">
+		<a href="/images/reflection.jpg" data-lightbox="reflection-art" data-title='3D render named "Reflection". Created with Cinema 4D.'>
+			<img src="/images/reflection.jpg">
+		</a>
 		<div class="item-bottom">
-			<a href="https://jaebirds.tumblr.com/post/158516418936/playing-with-colours-and-lights" target="_blank"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
-			<a href="http://jaebirds.deviantart.com/art/Reflect-670613544" target="_blank"><i class="fa fa-deviantart" aria-hidden="true"></i></a>
-			<a href="https://www.redbubble.com/people/jaebirds/works/25801551-reflect" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+			<a href="https://jaebirds.tumblr.com/post/158516418936/playing-with-colours-and-lights" target="_blank"><i class="fab fa-tumblr" aria-hidden="true" title="Tumblr"></i></a>
+			<a href="http://jaebirds.deviantart.com/art/Reflect-670613544" target="_blank"><i class="fab fa-deviantart" aria-hidden="true" title="DeviantArt"></i></a>
+			<a href="https://www.redbubble.com/people/jaebirds/works/25801551-reflect" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true" title="RedBubble Store"></i></a>
 		</div>
 	</div>
 	
 	<div class="item art 3D-art y2017">
 		<!-- Cluttered tv lowpoly - March 5, 2017 -->
-		<img src="/images/cluttered.jpg">
+		<a href="/images/cluttered.jpg" data-lightbox="cluttered-art" data-title='3D render named "Cluttered". Created with Cinema 4D.'>
+			<img src="/images/cluttered.jpg">
+		</a>
 		<div class="item-bottom">
-			<a href="https://jaebirds.tumblr.com/post/158039608231/plain-or-colourful-i-couldnt-decide" target="_blank"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
-			<a href="http://jaebirds.deviantart.com/art/Cluttered-667458397" target="_blank"><i class="fa fa-deviantart" aria-hidden="true"></i></a>
-			<a href="https://www.redbubble.com/people/jaebirds/works/25566235-cluttered" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+			<a href="https://jaebirds.tumblr.com/post/158039608231/plain-or-colourful-i-couldnt-decide" target="_blank"><i class="fab fa-tumblr" aria-hidden="true" title="Tumblr"></i></a>
+			<a href="http://jaebirds.deviantart.com/art/Cluttered-667458397" target="_blank"><i class="fab fa-deviantart" aria-hidden="true" title="DeviantArt"></i></a>
+			<a href="https://www.redbubble.com/people/jaebirds/works/25566235-cluttered" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true" title="RedBubble Store"></i></a>
 		</div>
 	</div>
 	
 	<div class="item web tumblr-themes y2017">
 		<!-- Theme 21 -  February 19, 2017 -->
-		<img src="/images/theme21.png">
+		<a href="/images/theme21.png" data-lightbox="tumblr-theme-21" data-title=''>
+			<img src="/images/theme21.png">
+		</a>
 		<div class="item-bottom">
-			<a href="https://raiidens.tumblr.com/post/157444337853/theme-22-by-raiidens-did-another-poll-to-see-what" target="_blank">Tumblr Theme <i class="fa fa-tumblr" aria-hidden="true"></i></a>
+			<a href="https://raiidens.tumblr.com/post/157444337853/theme-22-by-raiidens-did-another-poll-to-see-what" target="_blank">Tumblr Theme <i class="fab fa-tumblr" aria-hidden="true"></i></a>
 		</div>
 	</div>
 	
 	<div class="item art 3D-art featured y2017">
 		<!-- Candy Sea lowpoly - February 18, 2017 -->
-		<img src="/images/candysea.jpg">
+		<a href="/images/candysea.jpg" data-lightbox="candy-sea-art" data-title='3D render named "Candy Sea". Created with Cinema 4D.'>
+			<img src="/images/candysea.jpg">
+		</a>
 		<div class="item-bottom">
-			<a href="https://jaebirds.tumblr.com/post/157416234986/was-supposed-to-be-a-beach-scene-at-the-beginning" target="_blank"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
-			<a href="http://jaebirds.deviantart.com/art/Candy-Sea-664481934" target="_blank"><i class="fa fa-deviantart" aria-hidden="true"></i></a>
-			<a href="https://www.redbubble.com/people/jaebirds/works/25357021-candy-sea" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+			<a href="https://jaebirds.tumblr.com/post/157416234986/was-supposed-to-be-a-beach-scene-at-the-beginning" target="_blank"><i class="fab fa-tumblr" aria-hidden="true" title="Tumblr"></i></a>
+			<a href="http://jaebirds.deviantart.com/art/Candy-Sea-664481934" target="_blank"><i class="fab fa-deviantart" aria-hidden="true" title="DeviantArt"></i></a>
+			<a href="https://www.redbubble.com/people/jaebirds/works/25357021-candy-sea" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true" title="RedBubble Store"></i></a>
 		</div>
 	</div>
 	
 	<div class="item art 3D-art featured y2017">
 		<!-- Foggy Forest - February 16, 2017 -->
-		<img src="/images/foggyforest.jpg">
+		<a href="/images/foggyforest.jpg" data-lightbox="foggy-forest-art" data-title='3D render named "Foggy Forest". Created with Cinema 4D.'>
+			<img src="/images/foggyforest.jpg">
+		</a>
 		<div class="item-bottom">
-			<a href="https://jaebirds.tumblr.com/post/157327380096/jaebirds-a-little-foggy-forest-mountain-thing" target="_blank"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
-			<a href="http://jaebirds.deviantart.com/art/Foggy-Forest-663003581" target="_blank"><i class="fa fa-deviantart" aria-hidden="true"></i></a>
-			<a href="https://www.redbubble.com/people/jaebirds/works/25230476-foggy-forest" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+			<a href="https://jaebirds.tumblr.com/post/157327380096/jaebirds-a-little-foggy-forest-mountain-thing" target="_blank"><i class="fab fa-tumblr" aria-hidden="true" title="Tumblr"></i></a>
+			<a href="http://jaebirds.deviantart.com/art/Foggy-Forest-663003581" target="_blank"><i class="fab fa-deviantart" aria-hidden="true" title="DeviantArt"></i></a>
+			<a href="https://www.redbubble.com/people/jaebirds/works/25230476-foggy-forest" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true" title="RedBubble Store"></i></a>
 		</div>
 	</div>
 	
 	<div class="item art 3D-art y2017">
 		<!-- Mimikyu lowpoly -  February 16, 2017 -->
-		<img src="/images/mimikyu.jpg">
+		<a href="/images/mimikyu.jpg" data-lightbox="mimikyu-3d-art" data-title='3D render of a Mimikyu from Pokemon. Created with Cinema 4D.'>
+			<img src="/images/mimikyu.jpg">
+		</a>
 		<div class="item-bottom">
-			<a href="https://jaebirds.tumblr.com/post/157327366726/jaebirds-i-made-a-little-mimikyu" target="_blank"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
-			<a href="http://jaebirds.deviantart.com/art/Low-Poly-Mimikyu-663002931" target="_blank"><i class="fa fa-deviantart" aria-hidden="true"></i></a>
-			<a href="https://www.redbubble.com/people/jaebirds/works/25078121-pokemon-mimikyu" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+			<a href="https://jaebirds.tumblr.com/post/157327366726/jaebirds-i-made-a-little-mimikyu" target="_blank"><i class="fab fa-tumblr" aria-hidden="true" title="Tumblr"></i></a>
+			<a href="http://jaebirds.deviantart.com/art/Low-Poly-Mimikyu-663002931" target="_blank"><i class="fab fa-deviantart" aria-hidden="true" title="DeviantArt"></i></a>
+			<a href="https://www.redbubble.com/people/jaebirds/works/25078121-pokemon-mimikyu" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true" title="RedBubble Store"></i></a>
 		</div>
 	</div>
 	
 	<div class="item art 3D-art y2017">
 		<!-- Book lowpoly -  February 16, 2017 -->
-		<img src="/images/purplebook.jpg">
+		<a href="/images/purplebook.jpg" data-lightbox="purple-book-art" data-title='3D render named "Purple Book". Created with Cinema 4D.'>
+			<img src="/images/purplebook.jpg">
+		</a>
 		<div class="item-bottom">
-			<a href="https://jaebirds.tumblr.com/post/157327351016/jaebirds-a-low-poly-book-or-at-least-its" target="_blank"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
-			<a href="http://jaebirds.deviantart.com/art/Book-662999964" target="_blank"><i class="fa fa-deviantart" aria-hidden="true"></i></a>
-			<a href="https://www.redbubble.com/people/jaebirds/works/25079811-purple-book" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+			<a href="https://jaebirds.tumblr.com/post/157327351016/jaebirds-a-low-poly-book-or-at-least-its" target="_blank"><i class="fab fa-tumblr" aria-hidden="true" title="Tumblr"></i></a>
+			<a href="http://jaebirds.deviantart.com/art/Book-662999964" target="_blank"><i class="fab fa-deviantart" aria-hidden="true" title="DeviantArt"></i></a>
+			<a href="https://www.redbubble.com/people/jaebirds/works/25079811-purple-book" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true" title="RedBubble Store"></i></a>
 		</div>
 	</div>
 	
 	<div class="item art 3D-art y2017">
 		<!-- Mountain by the Water lowpoly -  February 16, 2017 -->
-		<img src="/images/mountainbythewater.jpg">
+		<a href="/images/mountainbythewater.jpg" data-lightbox="mountain-by-the-water-art" data-title='3D render named "Mountain by the Water". Created with Cinema 4D.'>
+			<img src="/images/mountainbythewater.jpg">
+		</a>
 		<div class="item-bottom">
-			<a href="https://jaebirds.tumblr.com/post/157327336181/jaebirds-i-made-a-thing-real-quick-cause-i" target="_blank"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
-			<a href="http://jaebirds.deviantart.com/art/Mountain-by-the-Water-662998112" target="_blank"><i class="fa fa-deviantart" aria-hidden="true"></i></a>
-			<a href="https://www.redbubble.com/people/jaebirds/works/25072632-mountain-by-the-water" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+			<a href="https://jaebirds.tumblr.com/post/157327336181/jaebirds-i-made-a-thing-real-quick-cause-i" target="_blank"><i class="fab fa-tumblr" aria-hidden="true" title="Tumblr"></i></a>
+			<a href="http://jaebirds.deviantart.com/art/Mountain-by-the-Water-662998112" target="_blank"><i class="fab fa-deviantart" aria-hidden="true" title="DeviantArt"></i></a>
+			<a href="https://www.redbubble.com/people/jaebirds/works/25072632-mountain-by-the-water" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true" title="RedBubble Store"></i></a>
 		</div>
 	</div>
 	
 	<div class="item animation kidlit-teenlit y2017 featured">
 		<!-- SM ep - Jan 31, 2017 -->
-		<iframe src="https://www.youtube.com/embed/EiosqHRcpw0" frameborder="0" allowfullscreen></iframe>
+		<div class="video-container"><iframe src="https://www.youtube.com/embed/EiosqHRcpw0" frameborder="0" allowfullscreen></iframe></div>
 	</div>
 	
 	<div class="item web free-code-camp y2017">
 		<!-- Wikipedia Viewer -  January 13, 2017 -->
-		<img src="/images/16c82vd.png">
+		<a href="/images/16c82vd.png" data-lightbox="fcc-wikipedia-viewer" data-title=''>
+			<img src="/images/16c82vd.png">
+		</a>
 		<div class="item-bottom">
-			<a href="https://codepen.io/jaebirds/pen/jyVQZN/" target="_blank">Wikipedia Viewer <i class="fa fa-codepen" aria-hidden="true"></i></a>
+			<a href="https://codepen.io/jaebirds/pen/jyVQZN/" target="_blank" title="Codepen">Wikipedia Viewer <i class="fab fa-codepen" aria-hidden="true"></i></a>
 		</div>
 	</div>
 	
 	<div class="item web free-code-camp y2017">
 		<!-- Random Quote Generator -  January 13, 2017 -->
-		<img src="/images/2dlqb2v.png">
+		<a href="/images/2dlqb2v.png" data-lightbox="fcc-random-quote-gen" data-title=''>
+			<img src="/images/2dlqb2v.png">
+		</a>
 		<div class="item-bottom">
-			<a href="https://codepen.io/jaebirds/pen/YNWPxq" target="_blank">Random Quote Generator <i class="fa fa-codepen" aria-hidden="true"></i></a>
+			<a href="https://codepen.io/jaebirds/pen/YNWPxq" target="_blank" title="Codepen">Random Quote Generator <i class="fab fa-codepen" aria-hidden="true"></i></a>
 		</div>
 	</div>
 	
 	<div class="item animation youtube-fananim y2016 featured">
 		<!-- Demo Reel - Dec 21, 2016 -->
-		<iframe src="https://www.youtube.com/embed/Idg5nyv19vg" frameborder="0" allowfullscreen></iframe>
+		<div class="video-container"><iframe src="https://www.youtube.com/embed/Idg5nyv19vg" frameborder="0" allowfullscreen></iframe></div>
 	</div>
 	
 	<div class="item animation youtube-fananim y2016">
 		<!-- JTodd control Nov 2 16 -->
-		<iframe src="https://www.youtube.com/embed/m2MEVPvTtmo" frameborder="0" allowfullscreen></iframe>
+		<div class="video-container"><iframe src="https://www.youtube.com/embed/m2MEVPvTtmo" frameborder="0" allowfullscreen></iframe></div>
 	</div>
 	
 	<div class="item animation youtube-fananim y2016">
 		<!-- Transistor lullabies Sept 3, 16 -->
-		<iframe src="https://www.youtube.com/embed/RKrHXXnCdY0" frameborder="0" allowfullscreen></iframe>
+		<div class="video-container"><iframe src="https://www.youtube.com/embed/RKrHXXnCdY0" frameborder="0" allowfullscreen></iframe></div>
 	</div>
 	
 	<div class="item web tumblr-themes y2016">
 		<!-- Theme 18 -  Aug 22, 2016 -->
-		<img src="/images/theme18.png">
+		<a href="/images/theme18.png" data-lightbox="tumblr-theme-18" data-title=''>
+			<img src="/images/theme18.png">
+		</a>
 		<div class="item-bottom">
-			<a href="https://raiidens.tumblr.com/post/149352543723/theme-18-by-raiidens-happy-20th-anniversary-to" target="_blank">Tumblr Theme <i class="fa fa-tumblr" aria-hidden="true"></i></a>
+			<a href="https://raiidens.tumblr.com/post/149352543723/theme-18-by-raiidens-happy-20th-anniversary-to" target="_blank">Tumblr Theme <i class="fab fa-tumblr" aria-hidden="true"></i></a>
 		</div>
 	</div>
 	
 	<div class="item animation youtube-fananim y2016">
 		<!-- TG dead v Aug 17, 16 -->
-		<iframe src="https://www.youtube.com/embed/FJOOkJb4b-o" frameborder="0" allowfullscreen></iframe>
+		<div class="video-container"><iframe src="https://www.youtube.com/embed/FJOOkJb4b-o" frameborder="0" allowfullscreen></iframe></div>
 	</div>
 	
 	<div class="item web tumblr-themes y2016">
 		<!-- Page Theme 3 -  August 2, 2016 -->
-		<img src="/images/pagetheme3.png">
+		<a href="/images/pagetheme3.png" data-lightbox="tumblr-page-theme-3" data-title=''>
+			<img src="/images/pagetheme3.png">
+		</a>
 		<div class="item-bottom">
-			<a href="https://raiidens.tumblr.com/post/148367477938/tagnavigation-list-page-theme-3-by-raiidens-a" target="_blank">Tumblr Theme <i class="fa fa-tumblr" aria-hidden="true"></i></a>
+			<a href="https://raiidens.tumblr.com/post/148367477938/tagnavigation-list-page-theme-3-by-raiidens-a" target="_blank">Tumblr Theme <i class="fab fa-tumblr" aria-hidden="true"></i></a>
 		</div>
 	</div>
 	
 	<div class="item web tumblr-themes y2016">
 		<!-- Theme 16 -  July 16, 2016 -->
-		<img src="/images/theme16.png">
+		<a href="/images/theme16.png" data-lightbox="tumblr-theme-16" data-title=''>
+			<img src="/images/theme16.png">
+		</a>
 		<div class="item-bottom">
-			<a href="https://raiidens.tumblr.com/post/147522545893/theme-16-by-raiidens-are-you-sad-because-you" target="_blank">Tumblr Theme <i class="fa fa-tumblr" aria-hidden="true"></i></a>
+			<a href="https://raiidens.tumblr.com/post/147522545893/theme-16-by-raiidens-are-you-sad-because-you" target="_blank">Tumblr Theme <i class="fab fa-tumblr" aria-hidden="true"></i></a>
 		</div>
 	</div>
 	
 	<div class="item web tumblr-themes y2016">
 		<!-- The Filmdom -  June 28, 2016 -->
-		<img src="/images/thefilmdom.jpg">
+		<a href="/images/thefilmdom.jpg" data-lightbox="tumblr-the-filmdom" data-title=''>
+			<img src="/images/thefilmdom.jpg">
+		</a>
 		<div class="item-bottom">
-			<a href="https://thefilmdom.tumblr.com" target="_blank">Theme Commission <i class="fa fa-tumblr" aria-hidden="true"></i></a>
+			<a href="https://thefilmdom.tumblr.com" target="_blank">Tumblr Theme Commission <i class="fab fa-tumblr" aria-hidden="true"></i></a>
 		</div>
 	</div>
 	
 	<div class="item web tumblr-themes y2016">
 		<!-- Theme 11 -  Jan 30, 2016 -->
-		<img src="/images/theme11.png">
+		<a href="/images/theme11.png" data-lightbox="tumblr-theme-11" data-title=''>
+			<img src="/images/theme11.png">
+		</a>
 		<div class="item-bottom">
-			<a href="https://raiidens.tumblr.com/post/138378372733/theme-11-by-raiidens-i-tried-to-make-a-theme-in" target="_blank">Tumblr Theme <i class="fa fa-tumblr" aria-hidden="true"></i></a>
+			<a href="https://raiidens.tumblr.com/post/138378372733/theme-11-by-raiidens-i-tried-to-make-a-theme-in" target="_blank">Tumblr Theme <i class="fab fa-tumblr" aria-hidden="true"></i></a>
 		</div>
 	</div>
 	
 	<div class="item web tumblr-themes y2016 featured">
 		<!-- Theme 19 -  January 13, 2016 -->
-		<img src="/images/theme19.png">
+		<a href="/images/theme19.png" data-lightbox="tumblr-theme-19" data-title=''>
+			<img src="/images/theme19.png">
+		</a>
 		<div class="item-bottom">
-			<a href="https://raiidens.tumblr.com/post/150639811093/theme-19-by-raiidens-i-made-this-theme-for-my" target="_blank">Tumblr Theme <i class="fa fa-tumblr" aria-hidden="true"></i></a>
+			<a href="https://raiidens.tumblr.com/post/150639811093/theme-19-by-raiidens-i-made-this-theme-for-my" target="_blank">Tumblr Theme <i class="fab fa-tumblr" aria-hidden="true"></i></a>
 		</div>
 	</div>
 	
 	<div class="item animation youtube-fananim y2016">
 		<!-- sans wakemeup Jan 29, 16 -->
-		<iframe src="https://www.youtube.com/embed/z8BlVimbFQU" frameborder="0" allowfullscreen></iframe>
+		<div class="video-container"><iframe src="https://www.youtube.com/embed/z8BlVimbFQU" frameborder="0" allowfullscreen></iframe></div>
 	</div>
 	
 	<div class="item animation youtube-fananim y2015">
 		<!-- TG hurricane Nov 2, 15 -->
-		<iframe src="https://www.youtube.com/embed/dX7k-0B7HG4" frameborder="0" allowfullscreen></iframe>
+		<div class="video-container"><iframe src="https://www.youtube.com/embed/dX7k-0B7HG4" frameborder="0" allowfullscreen></iframe></div>
 	</div>
 	
 	<div class="item art 3D-art y2015 featured">
 		<!-- Mountain / Camping thing lowpoly -  July 25, 2015 -->
-		<img src="/images/snsintro.png">
+		<a href="/images/snsintro.png" data-lightbox="sns-intro-art" data-title=''>
+			<img src="/images/snsintro.png">
+		</a>
 		<div class="item-bottom">
-			<a href="https://jaebirds.tumblr.com/post/157326838846" target="_blank"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
-			<a href="https://www.youtube.com/watch?v=EQqBhQQAcxc" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+			<a href="https://jaebirds.tumblr.com/post/157326838846" target="_blank"><i class="fab fa-tumblr" aria-hidden="true" title="Tumblr"></i></a>
+			<a href="https://www.youtube.com/watch?v=EQqBhQQAcxc" target="_blank"><i class="fab fa-youtube" aria-hidden="true" title="YouTube"></i></a>
 		</div>
 	</div>
 	
 	<div class="item animation youtube-fananim y2014">
 		<!-- TG after the storm Dec 20, 14 -->
-		<iframe src="https://www.youtube.com/embed/IPnvAy-bGqs" frameborder="0" allowfullscreen></iframe>
+		<div class="video-container"><iframe src="https://www.youtube.com/embed/IPnvAy-bGqs" frameborder="0" allowfullscreen></iframe></div>
 	</div>
 	
 	<div class="item animation youtube-fananim y2014">
 		<!-- TG after the storm Nov 2, 14 -->
-		<iframe src="https://www.youtube.com/embed/-x84brJvTBw" frameborder="0" allowfullscreen></iframe>
+		<div class="video-container"><iframe src="https://www.youtube.com/embed/-x84brJvTBw" frameborder="0" allowfullscreen></iframe></div>
 	</div>
 	
 	
@@ -574,13 +782,13 @@ $( document ).tooltip({
 	<!-- End cards -->
 	
 	<a href="https://raiidens.tumblr.com/" target="_blank" class="item end-card tumblr-themes">
-		<i class="fa fa-tumblr" aria-hidden="true"></i>
+		<i class="fab fa-tumblr" aria-hidden="true"></i>
 		<p>Check out more themes on my Tumblr blog!</p>
 	</a>
 	
 	
 	<a href="https://www.youtube.com/user/julialaurenxoxo" target="_blank" class="item end-card youtube-fananim">
-		<i class="fa fa-youtube-play" aria-hidden="true"></i>
+		<i class="fab fa-youtube" aria-hidden="true"></i>
 		<p>Check out more animations on my YouTube!</p>
 	</a>
 	
@@ -594,9 +802,9 @@ $( document ).tooltip({
 
 
 </body>
-<script src="//npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+<script src="//unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
 <script src="//unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
-<!-- <script src="/scripts/image-scale.js"></script> -->
-<script src="/scripts/lazyload.js"></script>
-<script src="/scripts.js"></script>
+<script src="/js/lazyload.js"></script>
+<script src="/js/lightbox.min.js"></script>
+<script src="/js/scripts.js"></script>
 </html>
