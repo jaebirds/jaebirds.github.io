@@ -7,11 +7,12 @@ html {display: none;}
 *::-webkit-selection {background-color: #EEE;}
 
 html, body, p, h1, h2, h3, h4, h5, h6, blockquote {
-    margin:0;
-    padding:0;
-    list-style:none;
+	font-size: 12pt;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
-p {margin-bottom:10px;}
+p {margin-bottom: 10px;}
 
 h1 {
 	line-height: 50pt;
@@ -20,18 +21,17 @@ h1 {
 
 body {
     font-family: 'Open Sans', sans-serif;;
-    font-size: 10pt;
     color: #333333;
-    background-color: #FFFFFF;
+    background-color: #FFF;
 	background-image: url('/images/emanuel-hahn-195190-min.jpg');
-	background-attachment:fixed;
-	background-size:cover;
-	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
 	overflow-y: scroll;
 }
 
-small {font-size: 8px;}
-big {font-size: 12px;}
+small {font-size: 0.6rem;}
+big {font-size: 10.9rem;}
 
 ul {text-align: left;}
 ul, ol {margin-left: -25px;}
@@ -54,7 +54,7 @@ a {
 
 #content {
     position:absolute;
-    top: 50px;
+    top: 55px;
     margin-left: 320px;
 }
 
@@ -86,12 +86,12 @@ a {
 }
 
 #topbar {
-	position:fixed;
-	width:100%;
-	height:40px;
+	position: fixed;
+	width: 100%;
+	height: 45px;
 	top: 0;
-	font-variant:small-caps;
-	z-index:9;
+	font-variant: small-caps;
+	z-index: 9;
 	-webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
 	-moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
@@ -110,7 +110,7 @@ a {
 	padding-right: 50px;
 	right: 0px;
 	z-index: 9;
-	font-size: 12pt;
+	font-size: 1.2rem;
 }
 #topbar div.right-aligned i, #topbar div.right-aligned img {
 	color: #666666;
@@ -128,7 +128,7 @@ a {
 .bottom-bar {
 	text-align: center;
 	padding: 8px;
-	font-size: 13pt;
+	font-size: 1.3rem;
 	display: none;
 }
 .bottom-bar i, .bottom-bar img {
@@ -138,7 +138,7 @@ a {
 
 .menubutton {
 	float: left;
-	font-size: 15px;
+	font-size: 1.125rem;
 	height: 10px;
 	width: 90px;
 	text-align: center;
@@ -152,7 +152,7 @@ a {
 .menubutton:hover {letter-spacing: 1px;}
 
 #sidebarbg h3 {
-	font-size: 16pt;
+	font-size: 1.6rem;
 	padding: 0 25px;
 }
 
@@ -166,7 +166,7 @@ a {
 .sort-menu li {
 	padding: 7px;
 	padding-left: 80px;
-	font-size: 12pt;
+	font-size: 1.2rem;
 	cursor: pointer;
 	background-color: #FFF;
 	-webkit-transition: all 0.4s ease-in-out;
@@ -188,10 +188,10 @@ a {
 	position: fixed;
 	padding: 30px;
 	top: 20px;
-	left: 70px;
+	left: 65px;
 	width: 300px;
 	height: 150px;
-	font-size: 40pt;
+	font-size: 4rem;
 	font-family: 'Calligraffitti', cursive;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -204,7 +204,7 @@ a {
 	left: 150px;
 	top: -28px;
 	left: 150px;
-	font-size: 20pt;
+	font-size: 2rem;
 }
 
 .item {
@@ -285,7 +285,7 @@ a {
 	text-align: center; 
 }
 .end-card i {
-	font-size: 50pt;
+	font-size: 5rem;
 	margin: 5px auto;
 	opacity: 0.1;
 	position: absolute;
@@ -371,11 +371,11 @@ figure.shine:hover::before {
 	width: 120px;
 }
 .about-container div.about-item h1 {
-	font-size: 12pt;
+	font-size: 1.2rem;
 	line-height: 25pt;
 }
 .about-container div.about-item i {
-	font-size: 40pt;
+	font-size: 4rem;
 	margin-bottom: 10px;
 }
 .about-container div.about-item p {
@@ -397,33 +397,26 @@ figure.shine:hover::before {
 	list-style-type: none;
 	padding: 0px;
 	padding-left: 10px;
-	font-weight: 13pt;
 }
-.about-container ul.skills li {
-	margin-bottom: 2px;
-	font-size: 11pt;
-}
+.about-container ul.skills li {margin-bottom: 2px;}
 .about-container ul.skills ul {
-	font-size: 8pt;
+	font-size: 0.8rem;
 	list-style-type: none;
 	padding-left: 5px;
 	margin-bottom: 10px;
 }
 .about-container ul.skills i, .about-container ul.dreams i {
-	font-size: 8pt;
+	font-size: 0.8rem;
 	margin-bottom: 0;
 }
 .about-container ul ul li {
 	padding: 3px 5px;
 	margin: 0;
-	font-size: 8pt;
+	font-size: 0.8rem;
 }
 
 .about-container ul.dreams {text-indent: -6px;}
-.about-container ul.dreams li {
-	margin-bottom: 3px;
-	font-size: 11pt;
-}
+.about-container ul.dreams li {margin-bottom: 3px;}
 
 #contact-popup form {
 	text-align: left;
@@ -474,39 +467,41 @@ figure.shine:hover::before {
 	.item {width: calc(49% - 5px);}
 }
 
-@media screen and (max-width: 920px) {
-	.item {width: calc(100% - 9px);}
-}
-
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 1280px) {
+	html {font-size: 14pt;}
     #sidebarbg {
 		margin-left: -300px;
 		padding-top: 80px;
 		width: 250px;
 	}
 	#overlay {opacity: 0.95;}
+	#topbar {height: 50px;}
 	#topbar div.right-aligned {padding-right: 20px;}
     #topbarmask {display: none;}
-    #topbarcontent {margin-left: -235px}
+    #topbarcontent {margin-left: -200px;}
     #content {
 		margin-left: 0px !important;
-		width: 80vw;
+		width: calc(100vw - 60px);
+		padding: 0 30px;
+		top: 60px;
 		left: 50%;
 		transform: translate(-50%, 0%);
 		text-align: center;
 	}
-	.item, .item iframe {
-		display: inline-block;
-		width: 80vw;
-	}
+	.item, .item iframe {width: calc(35% - 46px);}
 	#website-logo, #website-logo.mini {
 		top: -30px;
 		left: 0;
-		font-size: 20pt;
+		font-size: 2rem;
 	}
-	.menubutton {
-		width: 60px;
-	}
+}
+
+@media screen and (max-width: 1000px) {
+	.item, .item iframe {width: calc(50% - 36px);}
+}
+
+@media screen and (max-width: 600px) {
+	.item {width: calc(100% - 60px);}
 }
 
 @media screen and (max-width: 450px) {

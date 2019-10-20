@@ -24,6 +24,7 @@ $(document).ready(function() {
 		layoutMode: 'masonry',
 		filter: '.featured',
 		percentPosition: true,
+		fitWidth: true,
 		masonry: {
 			columnWidth: '.item',
 			gutter: 8
@@ -67,7 +68,7 @@ $(document).ready(function() {
 		$isotope.isotope({ filter: $(this).data("id") });
 		$selectedSort = $(this);
 		$selectedSort.addClass("selected");
-		if ($(window).width() < 790) {
+		if ($(window).width() < 1280) {
 			$("#sidebarbg").animate({marginLeft:"-300"}, 500);
 			sortMenuOpen = false;
 		}
@@ -94,7 +95,7 @@ $(document).ready(function() {
 				//change to work content
 				
 			}
-			if ($(window).width() < 790) {
+			if ($(window).width() < 1280) {
 				$("#sidebarbg").animate({marginLeft: "0"}, 500);
 				sortMenuOpen = true;
 			}
