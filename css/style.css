@@ -114,15 +114,15 @@ a {
 
 #topbar div.right-aligned {
 	position: absolute;
-	padding: 10px;
+	padding: 7px 10px;
 	padding-right: 50px;
 	right: 0px;
 	z-index: 9;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 }
 #topbar div.right-aligned i, #topbar div.right-aligned img {
 	color: #B388EB;
-	margin: 0 3px;
+	margin: 0 5px;
 	width: 1rem;
 	vertical-align: middle;
 	display: inline-block;
