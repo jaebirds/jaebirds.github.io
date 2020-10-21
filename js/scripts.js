@@ -36,7 +36,6 @@ $(document).ready(function() {
 	$isotope.imagesLoaded(function() {
 		$isotope.isotope('layout');
 	});
-
 	  
 	function onLoadeddata(event) {
 		console.log("onLoadeddata called");
@@ -173,11 +172,21 @@ $(document).ready(function() {
 		threshold: 500,
 	});
 
-	lightbox.option({
-		'resizeDuration': 300,
-		'fadeDuration': 300,
-		'wrapAround': true,
-		'disableScrolling': true
+	$('[data-fancybox]').fancybox({
+		buttons: [
+			"slideShow",
+			"thumbs",
+			"close"
+		  ],
+
+		video: {
+			tpl:
+			  '<video class="fancybox-video" controls controlsList="nodownload" poster="{{poster}}" preload="none" muted loop>' +
+			  '<source src="{{src}}" type="{{format}}" />' +
+			  'Sorry, your browser doesn\'t support embedded videos, <a href="{{src}}">download</a> and watch with your favorite video player!' +
+			  "</video>",
+			autoStart: true
+		},
 	});
 	
 	$('html').fadeIn(0, function() {
