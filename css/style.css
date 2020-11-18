@@ -36,7 +36,7 @@ body {
 	background: linear-gradient(180deg, rgba(253,197,245,1) 0%, rgba(179,136,235,1) 100%);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	overflow-y: scroll;
+	//overflow-y: scroll;
 }
 
 small {font-size: 0.6rem;}
@@ -244,6 +244,7 @@ a {
 .item {
 	width: calc(25% - 11px);
 	max-width: 500px;
+	min-height: 100px;
 	margin-bottom: 8px;
 	background-color: #EEE;
 	background-image: url('/images/loader.gif');
@@ -522,6 +523,8 @@ figure.shine:hover::before {
 	font-weight: bold;
 	display: none;
 }
+
+a[data-fancybox] {cursor: zoom-in;}
 
 @media screen and (max-width: 1845px) {
 	.item {width: calc(33% - 8px);}

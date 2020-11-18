@@ -1,3 +1,5 @@
+$.lazyLoadXT.updateEvent += ' layoutComplete';
+
 $(document).ready(function() {
 
 	function getQueryVariable(variable) {
@@ -33,9 +35,9 @@ $(document).ready(function() {
 
 	var $isotope = $('#content').isotope(isotopeSettings);
 
-	$isotope.imagesLoaded(function() {
-		$isotope.isotope('layout');
-	});
+	$isotope.on('layoutComplete', function(){
+		$(window).trigger('layoutComplete');
+    });
 	  
 	function onLoadeddata(event) {
 		console.log("onLoadeddata called");
@@ -167,9 +169,10 @@ $(document).ready(function() {
 			});
 		}
 	});
-	
-	$("img").lazyload({
-		threshold: 500,
+
+	$("img, video").lazyLoadXT();
+	$("img").on("lazyload", function() {
+		$isotope.isotope('layout');
 	});
 
 	$('[data-fancybox]').fancybox({
