@@ -45,10 +45,10 @@ $(document).ready(function() {
 	}
 	
 	$isotope.find('video').each( function(i, video) {
-		video.play();
+		//video.play();
 		$(video).on('loadeddata', onLoadeddata);
 	});
-
+	
 
 	
 	var $selectedSort = $('#default-sort');
@@ -177,7 +177,6 @@ $(document).ready(function() {
 
 	$('[data-fancybox]').fancybox({
 		buttons: [
-			"slideShow",
 			"thumbs",
 			"close"
 		  ],
@@ -193,6 +192,6 @@ $(document).ready(function() {
 	});
 	
 	$('html').fadeIn(0, function() {
-		$isotope.isotope();
+		//$isotope.isotope();
 	});
 });
