@@ -36,7 +36,6 @@ body {
 	background: linear-gradient(180deg, rgba(253,197,245,1) 0%, rgba(179,136,235,1) 100%);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	//overflow-y: scroll;
 }
 
 small {font-size: 0.6rem;}
