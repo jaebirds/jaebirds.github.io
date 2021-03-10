@@ -224,6 +224,7 @@ a {
 	font-family: 'Sansita Swashed', cursive;
 	color: #B388EB;
 	background: linear-gradient(to right, #FDC5F5 0%, #F7AEF8 5%, #B388EB 34%, #8093F1 75%);
+	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-size: contain;
