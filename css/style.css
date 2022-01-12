@@ -102,22 +102,24 @@ a {
 	-webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
 	-moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+	user-select: none;
 }
 #topbarcontent {
 	position: absolute;
 	width: 100%;
 	height: 20px;
-	padding: 10px;
+	padding: 8px 10px;
 	left: 350px;
+	text-align: center;
 }
 
 #topbar div.right-aligned {
 	position: absolute;
 	padding: 7px 10px;
-	padding-right: 50px;
+	padding-right: 55px;
 	right: 0px;
 	z-index: 9;
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 }
 #topbar div.right-aligned i, #topbar div.right-aligned img {
 	color: #B388EB;
@@ -149,7 +151,7 @@ a {
 	display: none;
 }
 .bottom-bar i, .bottom-bar img {
-	color: #666666;
+	color: #B388EB;
 	margin: 0px 3px;
 }
 
@@ -215,22 +217,14 @@ a {
 
 #website-logo {
 	position: fixed;
-	padding: 30px;
-	top: 20px;
-	left: 0px;
-	width: 300px;
-	height: 150px;
-	font-size: 4rem;
-	font-family: 'Sansita Swashed', cursive;
-	color: #B388EB;
-	background: linear-gradient(to right, #FDC5F5 0%, #F7AEF8 5%, #B388EB 34%, #8093F1 75%);
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	top: 50px;
+	left: 30px;
+	height: 100px;
+	width: 220px;
 	background-size: contain;
 	background-repeat: no-repeat;
+	background-image: url('/images/jaebirds logo.png');
 	z-index: 99;
-	pointer-events: none;
 }
 
 #website-logo.mini {
@@ -238,7 +232,6 @@ a {
 	left: 150px;
 	top: -28px;
 	left: 150px;
-	font-size: 2rem;
 }
 
 .item {
@@ -336,8 +329,8 @@ a {
 	border-radius: 3px;
 	padding: 20px;
 	width: 500px;
-	max-width: 100vw;
-	margin-top: 55px;
+	max-width: 85vw;
+	margin-top: 70px;
 	left: 50%;
 	transform: translate(-50%, 0%);
 	margin-bottom: 30px;
@@ -471,14 +464,13 @@ figure.shine:hover::before {
 	margin-bottom: 0;
 }
 .about-container ul ul li {
-	padding: 3px 5px;
+	padding: 4px 5px;
 	margin: 0;
 	font-size: 0.8rem;
 	font-weight: normal;
 }
 
-.about-container ul.dreams {text-indent: -6px;}
-.about-container ul.dreams li {margin-bottom: 3px;}
+.about-container ul.dreams li {margin-bottom: 4px;}
 
 #contact-popup form {
 	text-align: left;
@@ -542,28 +534,30 @@ a[data-fancybox] {cursor: zoom-in;}
 		width: 250px;
 	}
 	#overlay {opacity: 0.95;}
-	#topbar {height: 50px;}
-	#topbar div.right-aligned {padding-right: 20px;}
+	#topbar {height: 60px;}
+	#topbar div.right-aligned {padding: 14px 22px 14px 10px;}
     #topbarmask {display: none;}
-	#topbarcontent {margin-left: -175px;}
+	#topbarcontent {margin-left: -280px;}
 	.menubutton {
 		font-size: 1rem;
-		padding: 4px 15px;
+		padding: 10px 15px 9px 15px;
 	}
     #content {
 		margin-left: 0px !important;
 		width: calc(100vw - 60px);
 		padding: 0 30px;
-		top: 60px;
+		top: 70px;
 		left: 50%;
 		transform: translate(-50%, 0%);
 		text-align: center;
 	}
 	.item, .item iframe {width: calc(35% - 46px);}
 	#website-logo, #website-logo.mini {
-		top: -30px;
-		left: 0;
-		font-size: 2rem;
+		top: 7px;
+		left: 20px;
+		height: 45px;
+		width: 50px;
+		background-image: url('/images/jaebirds logo small.png');
 	}
 }
 
@@ -575,7 +569,7 @@ a[data-fancybox] {cursor: zoom-in;}
 	.item {width: calc(100% - 60px);}
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 524px) {
 	#topbar div.right-aligned {display: none;}
 	.bottom-bar {display: block;}
 	.about-item {
