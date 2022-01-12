@@ -77,7 +77,7 @@ $(document).ready(function() {
 	
 	$(".menubutton").click(function() {
 		if ($(this).attr('id') == "work-button") {
-			if (!sortMenuOpen) {
+			//if (!sortMenuOpen) {
 				$(".content-popup").fadeOut(500, function() {
 					$(this).css('pointer-events','none');
 					popupOpen = 0;
@@ -95,23 +95,24 @@ $(document).ready(function() {
 				
 				//change to work content
 				
-			}
+			//}
 			if ($(window).width() < 1280) {
 				$("#sidebarbg").animate({marginLeft: "0"}, 500);
 				sortMenuOpen = true;
 			}
 		} else {
-			if (sortMenuOpen) {
+			/*if (sortMenuOpen) {
 				//close menu
 				$("#sidebarbg").animate({marginLeft:"-300"}, 500);
 				$("#topbarmask").animate({marginLeft:"-300"}, 500);
 				$("#website-logo").addClass("mini", 600);
-				$("#content").animate({marginLeft: "0", opacity: "0"}, 500, function() {
-					$(this).css('pointer-events','none');
-				});
 				
 				sortMenuOpen = false;
-			}
+			}*/
+
+			$("#content").animate({marginLeft: "0", opacity: "0"}, 500, function() {
+				$(this).css('pointer-events','none');
+			});
 				
 			if ($(this).attr('id') == "about-button") {
 				if (popupOpen == 1) {
