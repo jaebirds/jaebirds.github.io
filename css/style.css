@@ -228,16 +228,10 @@ a {
 }
 
 #website-logo.mini {
+	top: 5px;
+	left: 55px;
+	height: 35px;
 	width: 150px;
-	left: 150px;
-	top: -28px;
-	left: 150px;
-
-	//top: 7px;
-	//left: 20px;
-	height: 45px;
-	//width: 50px;
-	background-image: url('/images/jaebirds logo small.png');
 }
 
 .item {
