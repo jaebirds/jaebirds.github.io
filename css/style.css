@@ -299,6 +299,25 @@ a {
 
 .item:hover .item-bottom {opacity: 0.75;}
 
+.video-item-icon {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 50pt;
+	color: #fff;
+	opacity: 0.8;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	-webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.item:hover .video-item-icon {opacity: 1;}
+
 .end-card {
 	background-color: #FFF;
 	background-image: none;
