@@ -48,7 +48,10 @@ $(document).ready(function() {
 		$(video).on('loadeddata', onLoadeddata);
 	});
 	
-
+	// on scroll, update isotope
+	$(window).scroll(function() {
+		$isotope.isotope('layout');
+	});
 	
 	var $selectedSort = $('#default-sort');
 	
@@ -64,8 +67,15 @@ $(document).ready(function() {
 	var popupOpen = 0;
 	
 	$(".sort-menu li").click(function() {
+		window.scrollTo(0, 0);
 		$selectedSort.removeClass("selected");
 		$isotope.isotope({ filter: $(this).data("id") });
+		setTimeout(function() {
+			$isotope.isotope('layout');
+		}, 300);
+		setTimeout(function() {
+			$isotope.isotope('layout');
+		}, 1000);
 		$selectedSort = $(this);
 		$selectedSort.addClass("selected");
 		if ($(window).width() < 1280) {
