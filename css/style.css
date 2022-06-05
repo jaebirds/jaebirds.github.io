@@ -318,6 +318,12 @@ a {
 }
 .item:hover .video-item-icon {opacity: 1;}
 
+.video-item-icon i {
+	background-color: rgba(128, 147, 241, 0.75);
+	padding: 25px 30px;
+	border-radius: 15px;
+}
+
 .end-card {
 	background-color: #FFF;
 	background-image: none;
