@@ -58,10 +58,18 @@ $(document).ready(function() {
 	
 	if (urlSort) {
 		urlSort = "." + urlSort;
-		$selectedSort.removeClass("selected");
+		
 		$isotope.isotope({ filter: urlSort });
+	}
+
+	//if hash tag has no items, go to featured
+	if ($isotope.isotope('getFilteredItemElements').length) {
+		$selectedSort.removeClass("selected");
 		$selectedSort = $(".sort-menu li[data-id='"+urlSort+"']");
 		$selectedSort.addClass("selected");
+	} 
+	else {
+		$isotope.isotope({ filter: ".featured" });
 	}
 	
 	var sortMenuOpen = true;

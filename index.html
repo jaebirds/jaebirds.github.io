@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
 <title>Jaebirds - Animator, Artist, and Web Developer</title>
-<meta name="description" content="Freelance animator, artist and web developer for hire.">
+<meta name="description" content="Freelance digital artist, animator, and web developer for hire.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href="jaebirds.ico" type="image/x-icon">
 
@@ -60,18 +60,15 @@ $(document).tooltip({
 		<h3>Sort Work</h3>
 		<ul class="sort-menu">
 			<li class="selected" id="default-sort" data-id=".featured">Featured</li>
-			<li data-id=".animation">Animations</li>
-			<li class="sub-menu" data-id=".social-media-anim">Social Media Ads</li>
-			<li class="sub-menu" data-id=".book-trailers">Book Trailers</li>
-			<li class="sub-menu" data-id=".youtube-fananim">Fan Animations</li>
-			<li data-id=".editing">Video Editing</li>
 			<li data-id=".art">Art</li>
-			<li class="sub-menu" data-id=".digital-art">Digital Art & Paintings</li>
-			<li class="sub-menu" data-id=".3D-art">3D Art</li>
+			<li class="sub-menu" data-id=".digitalart">Digital Art & Paintings</li>
+			<li class="sub-menu" data-id=".3dart">3D Art</li>
+			<li data-id=".animations">Animations</li>
+			<li class="sub-menu" data-id=".ads">Social Media Ads</li>
+			<li class="sub-menu" data-id=".booktrailers">Book Trailers</li>
+			<li class="sub-menu" data-id=".fananimations">Fan Animations</li>
+			<li data-id=".videoediting">Video Editing</li>
 			<li data-id=".web">Web</li>
-			<!--<li class="sub-menu" data-id=".company-webpages">Company Webpages</li>
-			<li class="sub-menu" data-id=".free-code-camp">Free Code Camp</li>
-			<li class="sub-menu" data-id=".tumblr-themes">Tumblr Themes</li> -->
 		</ul>
 	</div>
 </div>
@@ -105,10 +102,10 @@ $(document).tooltip({
 					<li><em>Animation / Graphics</em>
 						<ul>
 							<li><i class="fas fa-image" aria-hidden="true"></i> After Effects</li>
-							<li><i class="fas fa-image" aria-hidden="true"></i> Vegas Pro</li>
+							<li><i class="fas fa-image" aria-hidden="true"></i> Photoshop</li>
 							<li><i class="fas fa-image" aria-hidden="true"></i> Premiere Pro</li>
 							<li><i class="fas fa-image" aria-hidden="true"></i> Davinci Resolve</li>
-							<li><i class="fas fa-image" aria-hidden="true"></i> Photoshop</li>
+							<li><i class="fas fa-image" aria-hidden="true"></i> Vegas Pro</li>
 						</ul>
 					</li>
 					<li><em>Web development</em>
@@ -173,10 +170,16 @@ $(document).tooltip({
 	
 </div>
 
-
 <div id="content">
 
-	<div class="item art digital-art y2022">
+	<div class="item animations booktrailers y2022">
+		<!-- Our World is a Family Book Trailer - August 2022 -->
+		<a data-fancybox href="https://www.youtube.com/embed/xon9tGWLmzk" data-caption="Book trailer for Jennifer Jackson and Miry Whitehill's Our World is a Family. Animated from images from the book using After Effects.">
+			<div class="video-container"><iframe data-src="https://www.youtube.com/embed/xon9tGWLmzk" frameborder="0" allowfullscreen></iframe></div>
+		</a>
+	</div>
+
+	<div class="item art digitalart y2022 featured">
 		<!-- Hapi Fire Emblem painting -  August 2022 -->
 		<a href="/images/hapi.jpg" data-fancybox="hapi-painting" data-caption="Digital painting of Hapi from Fire Emblem: Three Hopes using Photoshop.">
 			<img data-src="/images/hapi.jpg" alt="" />
@@ -188,7 +191,7 @@ $(document).tooltip({
 		</div>
 	</div>
 
-	<div class="item art digital-art y2022">
+	<div class="item art digitalart y2022 featured">
 		<!-- Space Ace Rosalina painting -  June 2022 -->
 		<a href="/images/spaceacerosalina.jpg" data-fancybox="space-ace-rosalina-painting" data-caption="Digital painting of Rosalina from Super Mario in the theme of Asexual Pride using Photoshop.">
 			<img data-src="/images/spaceacerosalina.jpg" alt="" />
@@ -200,7 +203,7 @@ $(document).tooltip({
 		</div>
 	</div>
 
-	<div class="item art digital-art y2022">
+	<div class="item art digitalart y2022 featured">
 		<!-- Trainer Akari painting -  May 2022 -->
 		<a href="/images/akari.jpg" data-fancybox="trainer-akari-painting" data-caption="Digital painting of Trainer Akari from Pokemon Legends Arceus using Photoshop.">
 			<img data-src="/images/akari.jpg" alt="" />
@@ -212,7 +215,7 @@ $(document).tooltip({
 		</div>
 	</div>
 
-	<div class="item art digital-art y2022">
+	<div class="item art digitalart y2022 featured">
 		<!-- Eiko Tsukimi painting -  May 2022 -->
 		<a href="/images/eiko.jpg" data-fancybox="eiko-tsukimi-painting" data-caption="Digital painting of Eiko Tsukimi from Ya Boy Kongming using Photoshop.">
 			<img data-src="/images/eiko.jpg" alt="" />
@@ -224,7 +227,7 @@ $(document).tooltip({
 		</div>
 	</div>
 
-	<div class="item art digital-art y2022">
+	<div class="item art digitalart y2022 featured">
 		<!-- Kaguya sama painting -  Apr 2022 -->
 		<a href="/images/kaguya sama.jpg" data-fancybox="kaguya-shinomiya-painting" data-caption="Digital painting of Kaguya Shinomiya from Kaguya-sama Love is War using Photoshop.">
 			<img data-src="/images/kaguya sama.jpg" alt="" />
@@ -236,7 +239,7 @@ $(document).tooltip({
 		</div>
 	</div>
 
-	<div class="item art digital-art y2022">
+	<div class="item art digitalart y2022 featured">
 		<!-- Raiden Shogun painting -  Mar 2022 -->
 		<a href="/images/raidenshogun.jpg" data-fancybox="raiden-shogun-painting" data-caption="Digital painting of Raiden Shogun from Genshin Impact using Photoshop.">
 			<img data-src="/images/raidenshogun.jpg" alt="" />
@@ -248,7 +251,7 @@ $(document).tooltip({
 		</div>
 	</div>
 
-	<div class="item art digital-art y2022">
+	<div class="item art digitalart y2022 featured">
 		<!-- Diamond (Land of the Lustrous) painting -  Mar 2022 -->
 		<a href="/images/diamond.jpg" data-fancybox="diamond-hnk-painting" data-caption="Digital painting of Diamond from Land of the Lustrous using Photoshop.">
 			<img data-src="/images/diamond.jpg" alt="" />
@@ -260,7 +263,7 @@ $(document).tooltip({
 		</div>
 	</div>
 
-	<div class="item art digital-art y2022">
+	<div class="item art digitalart y2022 featured">
 		<!-- Eren Jaeger painting -  Feb 2022 -->
 		<a href="/images/eren jaeger.jpg" data-fancybox="eren-jaeger-painting" data-caption="Digital painting of Eren Jaeger from Attack on Titan using Photoshop.">
 			<img data-src="/images/eren jaeger.jpg" alt="" />
@@ -272,7 +275,7 @@ $(document).tooltip({
 		</div>
 	</div>
 
-	<div class="item art digital-art y2022">
+	<div class="item art digitalart y2022 featured">
 		<!-- Ryusui painting 2 -  Jan 2022 -->
 		<a href="/images/ryusui 2.jpg" data-fancybox="ryusui-painting-2" data-caption="Digital painting of Ryusui Nanami from Dr. Stone using Photoshop.">
 			<img data-src="/images/ryusui 2.jpg" alt="" />
@@ -284,7 +287,7 @@ $(document).tooltip({
 		</div>
 	</div>
 
-	<div class="item animation social-media-anim y2021">
+	<div class="item animations ads y2021">
 		<!-- Happy Chap Chappie - 2021 -->
 		<a data-fancybox data-width="1080" data-height="1920" href="/videos/happychap_2.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for Chappie.">
 			<video preload="none" muted loop data-poster="/videos/happychap_2.jpg"></video>
@@ -292,7 +295,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item animation social-media-anim y2021">
+	<div class="item animations ads y2021">
 		<!-- No More FOMO GSK - 2021 -->
 		<a data-fancybox data-width="1080" data-height="1920" href="/videos/nomorefomo_3.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for GSK.">
 			<video preload="none" muted loop data-poster="/videos/nomorefomo_3.jpg"></video>
@@ -300,7 +303,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item animation social-media-anim y2021">
+	<div class="item animations ads y2021">
 		<!-- No More FOMO GSK - 2021 -->
 		<a data-fancybox data-width="1080" data-height="1920" href="/videos/nomorefomo_1.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for GSK.">
 			<video preload="none" muted loop data-poster="/videos/nomorefomo_1.jpg"></video>
@@ -308,7 +311,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item animation social-media-anim y2021">
+	<div class="item animations ads y2021">
 		<!-- But First, Skincare Tatcha - 2021 -->
 		<a data-fancybox data-width="1080" data-height="1920" href="/videos/butfirstskincare_1.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for Tatcha.">
 			<video preload="none" muted loop data-poster="/videos/butfirstskincare_1.jpg"></video>
@@ -316,7 +319,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item art digital-art y2021">
+	<div class="item art digitalart y2021 featured">
 		<!-- Jolyne Cujoh painting -  Dec 2021 -->
 		<a href="/images/jolyne.jpg" data-fancybox="jolyne-cujoh-painting" data-caption="Digital painting of Jolyne Cujoh from Jojo's Bizarre Adventure: Stone Ocean using Photoshop.">
 			<img data-src="/images/jolyne.jpg" alt="" />
@@ -327,14 +330,14 @@ $(document).tooltip({
 		</div>
 	</div>
 
-	<div class="item animation book-trailers featured y2021">
+	<div class="item animations booktrailers featured y2021">
 		<!-- Unicorn Night Book Trailer - Oct 2021 -->
 		<a data-fancybox href="https://www.youtube.com/embed/5G6d7kMLy0c" data-caption="Book trailer for Diana Murray's Unicorn Night. Animated from images from the book using After Effects.">
 			<div class="video-container"><iframe data-src="https://www.youtube.com/embed/5G6d7kMLy0c" frameborder="0" allowfullscreen></iframe></div>
 		</a>
 	</div>
 
-	<div class="item art digital-art y2021">
+	<div class="item art digitalart y2021 featured">
 		<!-- Stanley Snyder painting 2 -  Oct 2021 -->
 		<a href="/images/stanley snyder 2.jpg" data-fancybox="stanley-snyder-painting-2" data-caption="Digital painting of Stanley Snyder from Dr. Stone using Photoshop.">
 			<img data-src="/images/stanley snyder 2.jpg" alt="" />
@@ -346,7 +349,7 @@ $(document).tooltip({
 		</div>
 	</div>
 
-	<div class="item art digital-art y2021">
+	<div class="item art digitalart y2021 featured">
 		<!-- Alice Lendrott painting -  Sept 2021 -->
 		<a href="/images/alicelendrott.jpg" data-fancybox="alice-lendrott-painting" data-caption="Digital painting of Alice Lendrott from The Duke of Death and His Maid using Photoshop.">
 			<img data-src="/images/alicelendrott.jpg" alt="" />
@@ -358,7 +361,7 @@ $(document).tooltip({
 		</div>
 	</div>
 
-	<div class="item art digital-art y2021">
+	<div class="item art digitalart y2021">
 		<!-- Komi painting -  July 2021 -->
 		<a href="/images/komi.jpg" data-fancybox="komi-painting" data-caption="Digital painting of Shouko Komi from Komi Can't Communicate using Photoshop.">
 			<img data-src="/images/komi.jpg" alt="" />
@@ -370,7 +373,7 @@ $(document).tooltip({
 		</div>
 	</div>
 
-	<div class="item art digital-art y2021">
+	<div class="item art digitalart y2021">
 		<!-- Gojo painting -  June 2021 -->
 		<a href="/images/gojo.jpg" data-fancybox="gojo-painting" data-caption="Digital painting of Satoru Gojo from Jujutsu Kaisen using Photoshop.">
 			<img data-src="/images/gojo.jpg" alt="" />
@@ -382,7 +385,7 @@ $(document).tooltip({
 		</div>
 	</div>
 
-	<div class="item art digital-art y2021">
+	<div class="item art digitalart y2021">
 		<!-- Ariel painting -  May 2021 -->
 		<a href="/images/ariel.jpg" data-fancybox="ariel-painting" data-caption="Digital painting of Ariel from The Little Mermaid using Photoshop.">
 			<img data-src="/images/ariel.jpg" alt="" />
@@ -393,7 +396,7 @@ $(document).tooltip({
 		</div>
 	</div>
 
-	<div class="item art digital-art y2021">
+	<div class="item art digitalart y2021">
 		<!-- 2B painting -  May 2021 -->
 		<a href="/images/2B.jpg" data-fancybox="2b-painting" data-caption="Digital painting of 2B from Nier Automata using Photoshop.">
 			<img data-src="/images/2B.jpg" alt="" />
@@ -405,7 +408,7 @@ $(document).tooltip({
 		</div>
 	</div>
 
-	<div class="item art digital-art y2020">
+	<div class="item art digitalart y2020">
 		<!-- Stanley Snyder Painting -  April 2021 -->
 		<a href="/images/stanley snyder.jpg" data-fancybox="stanley-snyder-painting" data-caption="Digital painting of Stanley Snyder from Dr Stone using Photoshop.">
 			<img data-src="/images/stanley snyder.jpg" alt="" />
@@ -418,7 +421,7 @@ $(document).tooltip({
 		</div>
 	</div>
 
-	<div class="item art digital-art y2021">
+	<div class="item art digitalart y2021 featured">
 		<!-- Lady Dimitrescu painting -  April 2021 -->
 		<a href="/images/lady dimitrescu.jpg" data-fancybox="lady-dimitrescu-painting" data-caption="Digital painting of Lady Alcina Dimitrescu from Resident Evil Village using Photoshop.">
 			<img data-src="/images/lady dimitrescu.jpg" alt="" />
@@ -430,7 +433,7 @@ $(document).tooltip({
 		</div>
 	</div>
 
-	<div class="item art digital-art y2021">
+	<div class="item art digitalart y2021">
 		<!-- Yara Flor animation - March 2021 -->
 		<a data-fancybox="yara-flor-painting" href="/videos/yaraflor.mp4" data-caption="Digital painting of Yara Flor from DC Comics using Photoshop. Animated in After Effects.">
 			<video controls preload="none" muted loop>
@@ -444,7 +447,7 @@ $(document).tooltip({
 		</div>
 	</div>
 
-	<div class="item animation youtube-fananim y2021">
+	<div class="item animations fananimations y2021">
 		<!-- Nier Replicant animation - February 2021 -->
 		<a data-fancybox href="/videos/nier replicant animation.mp4" data-caption="Animated from a flat image using After Effects. Illustration by Toylogic Inc.">
 			<video preload="none" muted loop data-poster="/videos/nier replicant animation.jpg"></video>
@@ -452,21 +455,21 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item animation book-trailers featured y2020">
+	<div class="item animations booktrailers featured y2020">
 		<!-- FuzzyButt Book Trailer - January 2021 -->
 		<a data-fancybox href="https://www.youtube.com/embed/RzXljsxvKZU" data-caption="Book trailer for Robin Newman & Susan Batori's Don't Call Me FuzzyButt! Animated from images from the book using After Effects.">
 			<div class="video-container"><iframe data-src="https://www.youtube.com/embed/RzXljsxvKZU" frameborder="0" allowfullscreen></iframe></div>
 		</a>
 	</div>
 
-	<div class="item animation book-trailers featured y2020">
+	<div class="item animations booktrailers featured y2020">
 		<!-- Race Cars Book Trailer - December 2020 -->
 		<a data-fancybox href="https://www.youtube.com/embed/UBm7wxOAYL0" data-caption="Book trailer for Jenny Devenny's Race Cars. Animated from images from the book using After Effects.">
 			<div class="video-container"><iframe data-src="https://www.youtube.com/embed/UBm7wxOAYL0" frameborder="0" allowfullscreen></iframe></div>
 		</a>
 	</div>
 
-	<div class="item animation book-trailers y2020">
+	<div class="item animations booktrailers y2020">
 		<!-- Race Cars book cover reveal - December 2020 -->
 		<a data-fancybox href="/videos/race cars book reveal.mp4" data-caption="Book cover reveal for Jenny Devenny's Race Cars. Animated from images from the book using After Effects.">
 			<video preload="none" loop data-poster="/videos/race cars book reveal.jpg"></video>
@@ -474,7 +477,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item animation youtube-fananim y2020">
+	<div class="item animations fananimations y2020">
 		<!-- Berserk Golden Age animation - November 2020 -->
 		<a data-fancybox href="/videos/berserk golden age animation.mp4" data-caption="Animated from a flat image using After Effects. Illustration by Studio 4°C.">
 			<video preload="none" muted loop data-poster="/videos/berserk golden age animation.jpg"></video>
@@ -482,7 +485,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item animation youtube-fananim y2020">
+	<div class="item animations fananimations y2020">
 		<!-- Persona 5 Royal animation - November 2020 -->
 		<a data-fancybox href="/videos/p5r_animation.mp4" data-caption="Animated from a flat image using After Effects. Illustration by Atlus Games.">
 			<video preload="none" muted loop data-poster="/videos/p5r_animation.jpg"></video>
@@ -490,7 +493,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item animation social-media-anim y2020 featured">
+	<div class="item animations ads y2020">
 		<!-- Opportunities eBay - October 2020 -->
 		<a data-fancybox data-width="1080" data-height="1920" href="/videos/opportunities_3.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for eBay.">
 			<video preload="none" muted loop data-poster="/videos/opportunities_3.jpg"></video>
@@ -498,7 +501,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item animation social-media-anim y2020">
+	<div class="item animations ads y2020">
 		<!-- Opportunities eBay - October 2020 -->
 		<a data-fancybox data-width="1080" data-height="1920" href="/videos/opportunities_2.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for eBay.">
 			<video preload="none" muted loop data-poster="/videos/opportunities_2.jpg"></video>
@@ -506,7 +509,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item animation youtube-fananim featured y2020">
+	<div class="item animations fananimations featured y2020">
 		<!-- Hades animation - October 2020 -->
 		<a data-fancybox href="/videos/hades_animation.mp4" data-caption="Animated from a flat image using After Effects. Illustration by Supergiant Games.">
 			<video preload="none" muted loop data-poster="/videos/hades_animation.jpg"></video>
@@ -514,7 +517,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item animation social-media-anim y2020">
+	<div class="item animations ads y2020">
 		<!-- Gift With Purchase SkinCeuticals - October 2020 -->
 		<a data-fancybox data-width="1920" data-height="1080" href="/videos/giftwithpurchase_4.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for SkinCeuticals.">
 			<video preload="none" muted loop data-poster="/videos/giftwithpurchase_4.jpg"></video>
@@ -522,7 +525,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item animation social-media-anim y2020">
+	<div class="item animations ads y2020">
 		<!-- Gift With Purchase SkinCeuticals - October 2020 -->
 		<a data-fancybox data-width="1080" data-height="1920" href="/videos/giftwithpurchase_1.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for SkinCeuticals.">
 			<video preload="none" muted loop data-poster="/videos/giftwithpurchase_1.jpg"></video>
@@ -530,7 +533,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item animation social-media-anim y2020">
+	<div class="item animations ads y2020">
 		<!-- Rapid Firming Lancome - October 2020 -->
 		<a data-fancybox data-width="1080" data-height="1920" href="/videos/rapidfirming_1.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for Lancome.">
 			<video preload="none" muted loop data-poster="/videos/rapidfirming_1.jpg"></video>
@@ -538,7 +541,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item animation social-media-anim y2020">
+	<div class="item animations ads y2020">
 		<!-- Rapid Firming Lancome - October 2020 -->
 		<a data-fancybox data-width="1080" data-height="1920" href="/videos/rapidfirming_4.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for Lancome.">
 			<video preload="none" muted loop data-poster="/videos/rapidfirming_4.jpg"></video>
@@ -546,7 +549,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item animation book-trailers featured y2020">
+	<div class="item animations booktrailers featured y2020">
 		<!-- A Thousand No's Book Trailer - 2020 -->
 		<a data-fancybox href="https://www.youtube.com/embed/26XXdtTpMcI" data-caption="Animated from flat book page images using After Effects.">
 			<div class="video-container"><iframe data-src="https://www.youtube.com/embed/26XXdtTpMcI" frameborder="0" allowfullscreen></iframe></div>
@@ -560,7 +563,7 @@ $(document).tooltip({
 		</a>
 	</div>
 
-	<div class="item animation social-media-anim y2020">
+	<div class="item animations ads y2020">
 		<!-- Gamer's Choice Activision - May 2020 -->
 		<a data-fancybox data-width="1080" data-height="1920" href="/videos/gamerschoice_2.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for Activision's Call of Duty Mobile.">
 			<video preload="none" muted loop data-poster="/videos/gamerschoice_2.jpg"></video>
@@ -568,7 +571,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item animation social-media-anim y2020 featured">
+	<div class="item animations ads y2020">
 		<!-- Gamer's Choice Activision - May 2020 -->
 		<a data-fancybox data-width="1080" data-height="1920" href="/videos/gamerschoice_1.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for Activision's Call of Duty Mobile.">
 			<video preload="none" muted loop data-poster="/videos/gamerschoice_1.jpg"></video>
@@ -576,7 +579,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item animation youtube-fananim featured y2020">
+	<div class="item animations fananimations featured y2020">
 		<!-- FE3H animation - February 2020 -->
 		<a data-fancybox href="/videos/fe3h_animation.mp4" data-caption="Animated from a flat image using After Effects. Illustration by Nintendo.">
 			<video preload="none" muted loop data-poster="/videos/fe3h_animation.jpg"></video>
@@ -584,21 +587,21 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item editing y2020">
+	<div class="item videoediting y2020">
 		<!-- Tiny Turtle Dragon edit - February 2020 -->
 		<a data-fancybox href="https://www.youtube.com/embed/DuOVslrSioI">
 			<div class="video-container"><iframe data-src="https://www.youtube.com/embed/DuOVslrSioI" frameborder="0" allowfullscreen></iframe></div>
 		</a>
 	</div>
 
-	<div class="item editing y2020">
+	<div class="item videoediting y2020">
 		<!-- ClickHeaders Switch Pro edit -->
 		<a data-fancybox href="https://www.youtube.com/embed/UzTAa2FCYY0">
 			<div class="video-container"><iframe data-src="https://www.youtube.com/embed/UzTAa2FCYY0" frameborder="0" allowfullscreen></iframe></div>
 		</a>
 	</div>
 
-	<div class="item animation social-media-anim y2019">
+	<div class="item animations ads y2019">
 		<!-- That's Tasty Pepsi - 2019 -->
 		<a data-fancybox data-width="1080" data-height="1080" href="/videos/thatstasty_2.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for Pepsi.">
 			<video preload="none" muted loop data-poster="/videos/thatstasty_2.jpg"></video>
@@ -606,7 +609,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item animation social-media-anim y2019">
+	<div class="item animations ads y2019">
 		<!-- To the Max Pepsi - 2019 -->
 		<a data-fancybox data-width="608" data-height="1080" href="/videos/tothemax_3.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for Pepsi.">
 			<video preload="none" muted loop data-poster="/videos/tothemax_3.jpg"></video>
@@ -614,7 +617,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item animation social-media-anim featured y2019">
+	<div class="item animations ads y2019">
 		<!-- To the Max Pepsi - 2019 -->
 		<a data-fancybox data-width="608" data-height="1080" href="/videos/tothemax_4.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for Pepsi.">
 			<video preload="none" muted loop data-poster="/videos/tothemax_4.jpg"></video>
@@ -622,7 +625,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item animation social-media-anim featured y2019">
+	<div class="item animations ads y2019">
 		<!-- Tone it Down HP - 2019 -->
 		<a data-fancybox data-width="608" data-height="1080" href="/videos/toneitdown_2.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for HP.">
 			<video preload="none" muted loop data-poster="/videos/toneitdown_2.jpg"></video>
@@ -630,7 +633,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item animation social-media-anim y2019">
+	<div class="item animations ads y2019">
 		<!-- Tone it Down HP - 2019 -->
 		<a data-fancybox data-width="608" data-height="1080" href="/videos/toneitdown_3.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for HP.">
 			<video preload="none" muted loop data-poster="/videos/toneitdown_3.jpg"></video>
@@ -638,7 +641,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item animation social-media-anim featured y2019">
+	<div class="item animations ads y2019">
 		<!-- Weekend Wins Iceland - 2019 -->
 		<a data-fancybox data-width="608" data-height="1080" href="/videos/weekendwins_1.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for Iceland.">
 			<video preload="none" muted loop data-poster="/videos/weekendwins_1.jpg"></video>
@@ -646,7 +649,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item animation social-media-anim y2019">
+	<div class="item animations ads y2019">
 		<!-- Weekend Wins Iceland - 2019 -->
 		<a data-fancybox data-width="608" data-height="1080" href="/videos/weekendwins_2.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for Iceland.">
 			<video preload="none" muted loop data-poster="/videos/weekendwins_2.jpg"></video>
@@ -654,7 +657,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item animation social-media-anim y2019">
+	<div class="item animations ads y2019">
 		<!-- Weekend Wins Iceland - 2019 -->
 		<a data-fancybox data-width="608" data-height="1080" href="/videos/weekendwins_3.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for Iceland.">
 			<video preload="none" muted loop data-poster="/videos/weekendwins_3.jpg"></video>
@@ -662,21 +665,21 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item animation book-trailers featured y2019">
+	<div class="item animations booktrailers featured y2019">
 		<!-- Pick Your Path Jack Frost vs Abe - September 2019 -->
 		<a data-fancybox href="https://www.youtube.com/embed/6AzwdnLAjB0" data-caption="Animated from flat book page images using After Effects.">
 			<div class="video-container"><iframe data-src="https://www.youtube.com/embed/6AzwdnLAjB0" frameborder="0" allowfullscreen></iframe></div>
 		</a>
 	</div>
 
-	<div class="item editing y2019">
+	<div class="item videoediting y2019">
 		<!-- BunnyFuFu test edit -->
 		<a data-fancybox href="https://www.youtube.com/embed/cu0eRYa3Ank">
 			<div class="video-container"><iframe data-src="https://www.youtube.com/embed/cu0eRYa3Ank" frameborder="0" allowfullscreen></iframe></div>
 		</a>
 	</div>
 
-	<div class="item social-media-anim animation featured y2019">
+	<div class="item ads animations y2019">
 		<!-- Vidsy DEADPOOL Brief - May 2019 -->
 		<a data-fancybox data-width="1080" data-height="1080" href="/videos/deadpool_1.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for FoxNext.">
 			<video preload="none" muted loop data-poster="/videos/deadpool_1.jpg"></video>
@@ -684,7 +687,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item social-media-anim animation y2019">
+	<div class="item ads animations y2019">
 		<!-- Vidsy DEADPOOL Brief - May 2019 -->
 		<a data-fancybox data-width="1080" data-height="1080" href="/videos/deadpool_2.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for FoxNext.">
 			<video preload="none" muted loop data-poster="/videos/deadpool_2.jpg"></video>
@@ -692,7 +695,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item social-media-anim animation y2019">
+	<div class="item ads animations y2019">
 		<!-- Vidsy BROWS ON FLEEK Brief - May 2019 -->
 		<a data-fancybox data-width="608" data-height="1080" href="/videos/browsonfleek_1.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for Maybelline.">
 			<video preload="none" muted loop data-poster="/videos/browsonfleek_1.jpg"></video>
@@ -700,7 +703,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item social-media-anim animation y2019">
+	<div class="item ads animations y2019">
 		<!-- Vidsy BROWS ON FLEEK Brief - May 2019 -->
 		<a data-fancybox data-width="608" data-height="1080" href="/videos/browsonfleek_2.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for Maybelline.">
 			<video preload="none" muted loop data-poster="/videos/browsonfleek_2.jpg"></video>
@@ -708,7 +711,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item social-media-anim animation featured y2019">
+	<div class="item ads animations y2019">
 		<!-- Vidsy FATHERS DAY Brief - May 2019 -->
 		<a data-fancybox data-width="608" data-height="1080" href="/videos/fathersday_1.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for Thortful.">
 			<video preload="none" muted loop data-poster="/videos/fathersday_1.jpg"></video>
@@ -716,7 +719,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item social-media-anim animation y2019">
+	<div class="item ads animations y2019">
 		<!-- Vidsy FATHERS DAY Brief - May 2019 -->
 		<a data-fancybox data-width="608" data-height="1080" href="/videos/fathersday_2.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for Thortful.">
 			<video preload="none" muted loop data-poster="/videos/fathersday_2.jpg"></video>
@@ -724,7 +727,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item social-media-anim animation featured y2019">
+	<div class="item ads animations y2019">
 		<!-- Vidsy LIONS VS DRAGONS Brief - May 2019 -->
 		<a data-fancybox data-width="1080" data-height="1080" href="/videos/lionsvsdragons_3.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for Warner Bros Games.">
 			<video preload="none" muted loop data-poster="/videos/lionsvsdragons_3.jpg"></video>
@@ -732,7 +735,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item social-media-anim animation y2019">
+	<div class="item ads animations y2019">
 		<!-- Vidsy LIONS VS DRAGONS Brief - May 2019 -->
 		<a data-fancybox data-width="1080" data-height="1080" href="/videos/lionsvsdragons_2.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for Warner Bros Games.">
 			<video preload="none" muted loop data-poster="/videos/lionsvsdragons_2.jpg"></video>
@@ -740,7 +743,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item social-media-anim animation editing y2019">
+	<div class="item ads animations videoediting y2019">
 		<!-- Vidsy LIONS VS DRAGONS Brief - May 2019 -->
 		<a data-fancybox data-width="1080" data-height="1080" href="/videos/lionsvsdragons_1.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for Warner Bros Games.">
 			<video preload="none" muted loop data-poster="/videos/lionsvsdragons_1.jpg"></video>
@@ -748,7 +751,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item social-media-anim animation featured y2019">
+	<div class="item ads animations y2019">
 		<!-- Vidsy JOIN THE CLUB Brief - April 2019 -->
 		<a data-fancybox data-width="1080" data-height="1080" href="/videos/jointheclub_1.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for Gillette.">
 			<video preload="none" muted loop data-poster="/videos/jointheclub_1.jpg"></video>
@@ -756,7 +759,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item social-media-anim animation y2019">
+	<div class="item ads animations y2019">
 		<!-- Vidsy JOIN THE CLUB Brief - April 2019 -->
 		<a data-fancybox data-width="1080" data-height="1080" href="/videos/jointheclub_2.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for Gillette.">
 			<video preload="none" muted loop data-poster="/videos/jointheclub_2.jpg"></video>
@@ -764,7 +767,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item social-media-anim animation y2019">
+	<div class="item ads animations y2019">
 		<!-- Vidsy STAY HUNGRY Brief - January 2019 -->
 		<a data-fancybox data-width="1080" data-height="1080" href="/videos/stayhungry_1.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for The Economist.">
 			<video preload="none" muted loop data-poster="/videos/stayhungry_1.jpg"></video>
@@ -772,7 +775,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item social-media-anim animation featured y2019">
+	<div class="item ads animations y2019">
 		<!-- Vidsy ALL THE CLASSICS Brief - January 2019 -->
 		<a data-fancybox data-width="1080" data-height="1080" href="/videos/alltheclassics_1.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for Primephonic.">
 			<video preload="none" muted loop data-poster="/videos/alltheclassics_1.jpg"></video>
@@ -780,7 +783,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item social-media-anim animation y2019">
+	<div class="item ads animations y2019">
 		<!-- Vidsy ALL THE CLASSICS Brief - January 2019 -->
 		<a data-fancybox data-width="1080" data-height="1080" href="/videos/alltheclassics_3.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for Primephonic.">
 			<video preload="none" muted loop data-poster="/videos/alltheclassics_3.jpg"></video>
@@ -788,14 +791,14 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item social-media-anim animation editing featured y2019">
+	<div class="item ads animations videoediting y2019">
 		<!-- Vidsy SEX ED Brief - January 2019 -->
 		<a data-fancybox href="https://www.youtube.com/embed/sq5FryuxsW4" data-caption="Edited and animated promotion footage into an advertisement for social media for Netflix.">
 			<div class="video-container"><iframe data-src="https://www.youtube.com/embed/sq5FryuxsW4" frameborder="0" allowfullscreen></iframe></div>
 		</a>
 	</div>
 
-	<div class="item social-media-anim animation featured y2019">
+	<div class="item ads animations y2019">
 		<!-- Vidsy THE BIG SECRET Brief - January 2019 -->
 		<a data-fancybox data-width="608" data-height="1080" href="/videos/thebigsecret_2.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for Pepsi.">
 			<video preload="none" muted loop data-poster="/videos/thebigsecret_2.jpg"></video>
@@ -803,7 +806,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item social-media-anim animation featured y2018">
+	<div class="item ads animations y2018">
 		<!-- Vidsy SO MANY DEALS Brief - December 2018 -->
 		<a data-fancybox data-width="1080" data-height="1080" href="/videos/somanydeals_1.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for Carphone Warehouse.">
 			<video preload="none" muted loop data-poster="/videos/somanydeals_1.jpg"></video>
@@ -811,7 +814,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item social-media-anim animation y2018">
+	<div class="item ads animations y2018">
 		<!-- Vidsy SO MANY DEALS Brief - December 2018 -->
 		<a data-fancybox data-width="608" data-height="1080" href="/videos/somanydeals_3.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for Carphone Warehouse.">
 			<video preload="none" muted loop data-poster="/videos/somanydeals_3.jpg"></video>
@@ -819,7 +822,7 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item social-media-anim animation y2018">
+	<div class="item ads animations y2018">
 		<!-- Vidsy SO MANY DEALS Brief - December 2018 -->
 		<a data-fancybox data-width="1080" data-height="1080" href="/videos/somanydeals_2.mp4" data-caption="Animated promotion footage and images into an advertisement for social media for Carphone Warehouse.">
 			<video preload="none" muted loop data-poster="/videos/somanydeals_2.jpg"></video>
@@ -827,21 +830,21 @@ $(document).tooltip({
 		<div class="video-item-icon"><i class="fa fa-solid fa-play"></i></div>
 	</div>
 
-	<div class="item editing y2018">
+	<div class="item videoediting y2018">
 		<!-- DBH edited episode -->
 		<a data-fancybox href="https://www.youtube.com/embed/icjCyRNMpMA">
 			<div class="video-container"><iframe data-src="https://www.youtube.com/embed/icjCyRNMpMA" frameborder="0" allowfullscreen></iframe></div>
 		</a>
 	</div>
 
-	<div class="item art digital-art y2018">
+	<div class="item art digitalart y2018">
 		<!-- Grandpa Painting -  November 2018 -->
 		<a href="/images/grandpa painting.jpg" data-fancybox data-caption="Digital painting of my late grandfather.">
 			<img data-src="/images/grandpa painting.jpg" alt="" />
 		</a>
 	</div>
 
-	<div class="item art 3D-art featured y2017">
+	<div class="item art 3dart featured y2017">
 		<!-- Game Maker lowpoly -  October 2017 -->
 		<a href="/images/game maker.jpg" data-fancybox data-caption='3D render named "Game Maker". Created with Cinema 4D.'>
 			<img data-src="/images/game maker.jpg" alt="" />
@@ -853,7 +856,7 @@ $(document).tooltip({
 		</div>
 	</div>
 
-	<div class="item art 3D-art y2017">
+	<div class="item art 3dart y2017">
 		<!-- Oasis lowpoly -  September 2017 -->
 		<a href="/images/oasis.jpg" data-fancybox data-caption='3D render named "Oasis". Created with Cinema 4D.'>
 			<img data-src="/images/oasis.jpg" alt="" />
@@ -895,7 +898,7 @@ $(document).tooltip({
 		</div>
 	</div>
 
-	<div class="item art 3D-art y2017">
+	<div class="item art 3dart y2017">
 		<!-- Books lowpoly -  May 10, 2017 -->
 		<a href="/images/books.jpg" data-fancybox data-caption='3D render named "Books". Created with Cinema 4D.'>
 			<img data-src="/images/books.jpg" alt="" />
@@ -907,28 +910,28 @@ $(document).tooltip({
 		</div>
 	</div>
 	
-	<div class="item animation kidlit-teenlit y2017">
+	<div class="item animations kidlit-teenlit y2017">
 		<!-- Young At Art intro - May 2, 2017 -->
 		<a data-fancybox href="https://www.youtube.com/embed/mnLmH3lmafA">
 			<div class="video-container"><iframe data-src="https://www.youtube.com/embed/mnLmH3lmafA" frameborder="0" allowfullscreen></iframe></div>
 		</a>
 	</div>
 	
-	<div class="item animation channel-intro y2017">
+	<div class="item animations channel-intro y2017">
 		<!-- Yugioh Duel Links Intro - April 29, 2017 -->
 		<a data-fancybox href="https://www.youtube.com/embed/oK1JT5r5_3U">
 			<div class="video-container"><iframe data-src="https://www.youtube.com/embed/oK1JT5r5_3U" frameborder="0" allowfullscreen></iframe></div>
 		</a>
 	</div>
 	
-	<div class="item animation youtube-fananim y2017 featured">
+	<div class="item animations fananimations y2017">
 		<!-- Nier here with me - April 26, 2017 -->
 		<a data-fancybox href="https://www.youtube.com/embed/8kamQg3Hnqg">
 			<div class="video-container"><iframe data-src="https://www.youtube.com/embed/8kamQg3Hnqg" frameborder="0" allowfullscreen></iframe></div>
 		</a>
 	</div>
 	
-	<div class="item art 3D-art y2017">
+	<div class="item art 3dart y2017">
 		<!-- Snow Wolves lowpoly - April 19, 2017 -->
 		<a href="/images/snowwolves.jpg" data-fancybox data-caption='3D render named "Snow Wolves". Created with Cinema 4D.'>
 			<img data-src="/images/snowwolves.jpg" alt="" />
@@ -940,7 +943,7 @@ $(document).tooltip({
 		</div>
 	</div>
 	
-	<div class="item art 3D-art y2017 featured">
+	<div class="item art 3dart y2017">
 		<!-- Up High lowpoly - May 4, 2017 -->
 		<a href="/images/uphigh.jpg" data-fancybox data-caption='3D render named "Up High". Created with Cinema 4D.'>
 			<img data-src="/images/uphigh.jpg" alt="" />
@@ -952,14 +955,14 @@ $(document).tooltip({
 		</div>
 	</div>
 	
-	<div class="item animation kidlit-teenlit y2017">
+	<div class="item animations kidlit-teenlit y2017">
 		<!-- TeenLit Logo - March 25, 2017 -->
 		<a data-fancybox href="https://www.youtube.com/embed/xGGaGeiMnUY">
 			<div class="video-container"><iframe data-src="https://www.youtube.com/embed/xGGaGeiMnUY" frameborder="0" allowfullscreen></iframe></div>
 		</a>
 	</div>
 	
-	<div class="item art 3D-art y2017">
+	<div class="item art 3dart y2017">
 		<!-- Lil Plant - March 21, 2017 -->
 		<a href="/images/plant.jpg" data-fancybox data-caption='3D render named "Plant". Created with Cinema 4D.'>
 			<img data-src="/images/plant.jpg" alt="" />
@@ -971,7 +974,7 @@ $(document).tooltip({
 		</div>
 	</div>
 	
-	<div class="item art 3D-art y2017">
+	<div class="item art 3dart y2017">
 		<!-- Reflect lowpoly - March 17, 2017 -->
 		<a href="/images/reflection.jpg" data-fancybox data-caption='3D render named "Reflection". Created with Cinema 4D.'>
 			<img data-src="/images/reflection.jpg" alt="" />
@@ -983,7 +986,7 @@ $(document).tooltip({
 		</div>
 	</div>
 	
-	<div class="item art 3D-art y2017">
+	<div class="item art 3dart y2017">
 		<!-- Cluttered tv lowpoly - March 5, 2017 -->
 		<a href="/images/cluttered.jpg" data-fancybox data-caption='3D render named "Cluttered". Created with Cinema 4D.'>
 			<img data-src="/images/cluttered.jpg" alt="" />
@@ -1005,7 +1008,7 @@ $(document).tooltip({
 		</div>
 	</div>
 	
-	<div class="item art 3D-art featured y2017">
+	<div class="item art 3dart featured y2017">
 		<!-- Candy Sea lowpoly - February 18, 2017 -->
 		<a href="/images/candysea.jpg" data-fancybox data-caption='3D render named "Candy Sea". Created with Cinema 4D.'>
 			<img data-src="/images/candysea.jpg" alt="" />
@@ -1017,7 +1020,7 @@ $(document).tooltip({
 		</div>
 	</div>
 	
-	<div class="item art 3D-art featured y2017">
+	<div class="item art 3dart featured y2017">
 		<!-- Foggy Forest - February 16, 2017 -->
 		<a href="/images/foggyforest.jpg" data-fancybox data-caption='3D render named "Foggy Forest". Created with Cinema 4D.'>
 			<img data-src="/images/foggyforest.jpg" alt="" />
@@ -1029,7 +1032,7 @@ $(document).tooltip({
 		</div>
 	</div>
 	
-	<div class="item art 3D-art y2017">
+	<div class="item art 3dart y2017">
 		<!-- Mimikyu lowpoly -  February 16, 2017 -->
 		<a href="/images/mimikyu.jpg" data-fancybox data-caption='3D render of a Mimikyu from Pokemon. Created with Cinema 4D.'>
 			<img data-src="/images/mimikyu.jpg" alt="" />
@@ -1041,7 +1044,7 @@ $(document).tooltip({
 		</div>
 	</div>
 	
-	<div class="item art 3D-art y2017">
+	<div class="item art 3dart y2017">
 		<!-- Book lowpoly -  February 16, 2017 -->
 		<a href="/images/purplebook.jpg" data-fancybox data-caption='3D render named "Purple Book". Created with Cinema 4D.'>
 			<img data-src="/images/purplebook.jpg" alt="" />
@@ -1053,7 +1056,7 @@ $(document).tooltip({
 		</div>
 	</div>
 	
-	<div class="item art 3D-art y2017">
+	<div class="item art 3dart y2017">
 		<!-- Mountain by the Water lowpoly -  February 16, 2017 -->
 		<a href="/images/mountainbythewater.jpg" data-fancybox="mountain-by-the-water" data-caption='3D render named "Mountain by the Water". Created with Cinema 4D.'>
 			<img data-src="/images/mountainbythewater.jpg" alt="" />
@@ -1086,21 +1089,21 @@ $(document).tooltip({
 		</div>
 	</div>
 	
-	<div class="item animation youtube-fananim y2016">
+	<div class="item animations fananimations y2016">
 		<!-- Demo Reel - Dec 21, 2016 -->
 		<a data-fancybox href="https://www.youtube.com/embed/Idg5nyv19vg">
 			<div class="video-container"><iframe data-src="https://www.youtube.com/embed/Idg5nyv19vg" frameborder="0" allowfullscreen></iframe></div>
 		</a>
 	</div>
 	
-	<div class="item animation youtube-fananim y2016">
+	<div class="item animations fananimations y2016">
 		<!-- JTodd control Nov 2 16 -->
 		<a data-fancybox href="https://www.youtube.com/embed/m2MEVPvTtmo">
 			<div class="video-container"><iframe data-src="https://www.youtube.com/embed/m2MEVPvTtmo" frameborder="0" allowfullscreen></iframe></div>
 		</a>
 	</div>
 	
-	<div class="item animation youtube-fananim y2016">
+	<div class="item animations fananimations y2016">
 		<!-- Transistor lullabies Sept 3, 16 -->
 		<a data-fancybox href="https://www.youtube.com/embed/RKrHXXnCdY0">
 			<div class="video-container"><iframe data-src="https://www.youtube.com/embed/RKrHXXnCdY0" frameborder="0" allowfullscreen></iframe></div>
@@ -1117,7 +1120,7 @@ $(document).tooltip({
 		</div>
 	</div>
 	
-	<div class="item animation youtube-fananim y2016">
+	<div class="item animations fananimations y2016">
 		<!-- TG dead v Aug 17, 16 -->
 		<a data-fancybox href="https://www.youtube.com/embed/FJOOkJb4b-o">
 			<div class="video-container"><iframe data-src="https://www.youtube.com/embed/FJOOkJb4b-o" frameborder="0" allowfullscreen></iframe></div>
@@ -1164,21 +1167,21 @@ $(document).tooltip({
 		</div>
 	</div>
 	
-	<div class="item animation youtube-fananim y2016">
+	<div class="item animations fananimations y2016">
 		<!-- sans wakemeup Jan 29, 16 -->
 		<a data-fancybox href="https://www.youtube.com/embed/z8BlVimbFQU">
 			<div class="video-container"><iframe data-src="https://www.youtube.com/embed/z8BlVimbFQU" frameborder="0" allowfullscreen></iframe></div>
 		</a>
 	</div>
 	
-	<div class="item animation youtube-fananim y2015">
+	<div class="item animations fananimations y2015">
 		<!-- TG hurricane Nov 2, 15 -->
 		<a data-fancybox href="https://www.youtube.com/embed/dX7k-0B7HG4">
 			<div class="video-container"><iframe data-src="https://www.youtube.com/embed/dX7k-0B7HG4" frameborder="0" allowfullscreen></iframe></div>
 		</a>
 	</div>
 	
-	<div class="item art 3D-art y2015 featured">
+	<div class="item art 3dart y2015 featured">
 		<!-- Mountain / Camping thing lowpoly -  July 25, 2015 -->
 		<a href="/images/snsintro.jpg" data-fancybox data-caption="">
 			<img data-src="/images/snsintro.jpg" alt="" />
@@ -1199,12 +1202,12 @@ $(document).tooltip({
 	</a>
 	
 	
-	<a href="https://www.youtube.com/user/julialaurenxoxo" target="_blank" class="item end-card youtube-fananim">
+	<a href="https://www.youtube.com/user/julialaurenxoxo" target="_blank" class="item end-card fananimations">
 		<i class="fab fa-youtube" aria-hidden="true"></i>
 		<p>Check out more animations on my YouTube!</p>
 	</a>
 	
-	<a href="https://www.redbubble.com/people/jaebirds/shop" target="_blank" class="item end-card art digital-art 3D-art">
+	<a href="https://www.redbubble.com/people/jaebirds/shop" target="_blank" class="item end-card art digitalart 3dart">
 		<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 		<p>Check out prints of my work!</p>
 	</a>
