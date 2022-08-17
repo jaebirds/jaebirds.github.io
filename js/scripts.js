@@ -12,8 +12,9 @@ $(document).ready(function() {
        return(false);
 	}
 	
-	var urlSort = getQueryVariable("sort");
 	var urlPage = getQueryVariable("page");
+
+	var urlSort = $(location).prop('hash').substr(1);
 	
 	(function($) {
 		$.fn.hasScrollBar = function() {
