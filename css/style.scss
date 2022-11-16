@@ -561,6 +561,8 @@ figure.shine {
 	display: none;
 }
 
+.fancybox-caption__body a {text-decoration: underline !important;}
+
 @media screen and (max-width: 1845px) {
 	.item {width: calc(33% - 8px);}
 }
