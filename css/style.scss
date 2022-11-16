@@ -452,6 +452,7 @@ figure.shine {
 		p {
 			text-align: left;
 			padding-left: 10px;
+			margin-bottom: 0;
 		}
 
 		ul {
@@ -472,6 +473,8 @@ figure.shine {
 		}
 
 		&:nth-of-type(2) {
+			width: 150px;
+
 			i, h2, span {color: #B388EB;}
 		}
 
@@ -528,6 +531,7 @@ figure.shine {
 		input, select, textarea {
 			width: 100%;
 		}
+		textarea {resize: none;}
 
 		.centered {
 			width: auto;
@@ -549,6 +553,8 @@ figure.shine {
 	}
 
 	.error {color: red;}
+
+	.fa-envelope {margin-right: 8px;}
 }
 
 #contactFormError {display: none;}
