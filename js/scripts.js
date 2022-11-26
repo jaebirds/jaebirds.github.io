@@ -73,7 +73,7 @@ $(document).ready(function() {
 		$isotope.isotope({ filter: ".featured" });
 	}
 	
-	var sortMenuOpen = true;
+	var sortMenuOpen = false;
 	var popupOpen = 0;
 	
 	$(".sort-menu li").click(function() {
@@ -191,9 +191,12 @@ $(document).ready(function() {
 	});
 
 	$(window).resize(function() {
-		if ($(window).width() > 1280 && sortMenuOpen == true) {
+		if ($(window).width() > 1280) {
 			$("#sidebarbg").animate({marginLeft: "0"}, 0);
 			$("#website-logo").removeClass("mini", 0);
+		} else {
+			if (!sortMenuOpen)
+				$("#sidebarbg").animate({marginLeft: "-300"}, 0);
 		}
 	});
 
