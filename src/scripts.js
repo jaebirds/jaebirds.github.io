@@ -112,8 +112,6 @@ $(document).ready(function() {
 				
 				sortMenuOpen = true;
 				
-				//change to work content
-				
 			}
 			if ($(window).width() < 1280) {
 				$("#sidebarbg").animate({marginLeft: "0"}, 500);
