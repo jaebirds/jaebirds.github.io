@@ -1,3 +1,4 @@
 {
-    "browser-preview.format": "png"
+    "browser-preview.format": "png",
+    "liveServer.settings.port": 5501
 }
