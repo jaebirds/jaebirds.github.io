@@ -53,6 +53,13 @@ $(document).ready(function() {
 	$(window).scroll(function() {
 		$isotope.isotope('layout');
 	});
+
+	$(document).tooltip({
+		track: true,
+		tooltipClass: "tooltiptheme",
+		items: "*[title]:not(.fancybox-button)",
+		show: 100
+	});
 	
 	var $selectedSort = $('#default-sort');
 	
