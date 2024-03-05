@@ -428,7 +428,30 @@ figure.shine {
 	}
 }
 
+.about-socials {
+	padding-bottom: 0;
+
+	a {
+		padding: 0 5px;
+	}
+}
+
 .about-container {
+
+	.about-text {
+		margin: 0;
+	}
+
+	> img {
+		margin-top: 30px;
+		max-width: 100%;
+	}
+
+	> p > i {
+		margin-top: 10px;
+		margin: 0 3px;
+	}
+
 	.about-item {
 		display: inline-block;
 		vertical-align: top;
@@ -487,7 +510,7 @@ figure.shine {
 		padding: 0px;
 		padding-left: 10px;
 
-		&.skills {
+		/*&.skills {
 			> li {
 				margin-bottom: 2px;
 				font-weight: bold;
@@ -499,7 +522,7 @@ figure.shine {
 				padding-left: 5px;
 				margin-bottom: 10px;
 			}
-		}
+		}*/
 
 		&.skills i, &.dreams i {
 			font-size: 0.8rem;
