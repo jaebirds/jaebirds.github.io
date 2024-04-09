@@ -113,7 +113,8 @@ $(document).ready(function() {
 				$("#sidebarbg").animate({marginLeft: "0"}, 500);
 				$("#topbarmask").animate({marginLeft: "0"}, 500);
 				$("#website-logo").removeClass("mini", 600);
-				$("#content").animate({marginLeft: "320", opacity: "1"}, 500, function() {
+				//$("#content").animate({marginLeft: "320", opacity: "1"}, 500, function() {
+				$("#content").animate({opacity: "1"}, 500, function() {
 					$(this).css('pointer-events','');
 				});
 				
@@ -134,7 +135,8 @@ $(document).ready(function() {
 				sortMenuOpen = false;
 			}
 
-			$("#content").animate({marginLeft: "0", opacity: "0"}, 500, function() {
+			//$("#content").animate({marginLeft: "0", opacity: "0"}, 500, function() {
+			$("#content").animate({opacity: "0"}, 500, function() {
 				$(this).css('pointer-events','none');
 			});
 				
