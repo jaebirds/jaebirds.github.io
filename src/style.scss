@@ -608,9 +608,7 @@ figure.shine {
 	#overlay {opacity: 0.95;}
 
 	#topbar {
-		height: 60px;
-
-		.right-aligned {padding: 14px 22px 14px 10px;}
+		.right-aligned {padding: 20px 22px 20px 10px;}
 	}
     #topbarmask {display: none;}
 	#topbarcontent {margin-left: -280px;}
@@ -621,19 +619,21 @@ figure.shine {
 	}
 
     #content {
+		top: 100px;
 		margin-left: 0px !important;
 		width: calc(100vw - 60px);
 		padding: 0 30px;
-		top: 80px;
 		left: 50%;
 		transform: translate(-50%, 0%);
 		text-align: center;
 	}
 
+	.content-popup {margin-top: 100px;}
+
 	.item, .item iframe {width: calc(35% - 46px);}
 
 	#website-logo, #website-logo.mini {
-		top: 13px;
+		top: 17px;
 		left: 20px;
 		height: 45px;
 		width: 50px;
