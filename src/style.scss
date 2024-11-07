@@ -56,7 +56,7 @@ a {
 
 #content {
     position:absolute;
-    top: 55px;
+    top: 80px;
     margin-left: 320px;
 }
 
@@ -104,7 +104,7 @@ a {
 		padding-right: 55px;
 		right: 0px;
 		z-index: 9;
-		font-size: 1.2rem;
+		font-size: 1.3rem;
 
 		i, #topbar img {
 			color: #B388EB;
@@ -223,6 +223,7 @@ a {
 	background-repeat: no-repeat;
 	background-image: url('/images/jaebirds logo.webp');
 	z-index: 99;
+	transition: 0.5s;
 
 	&.mini {
 		top: 13px;
@@ -614,12 +615,12 @@ figure.shine {
 	#topbarcontent {margin-left: -280px;}
 
 	.menubutton {
-		font-size: 1rem;
+		font-size: 1.2rem;
 		padding: 10px 15px 9px 15px;
 	}
 
     #content {
-		top: 100px;
+		top: 110px;
 		margin-left: 0px !important;
 		width: calc(100vw - 60px);
 		padding: 0 30px;
@@ -628,7 +629,7 @@ figure.shine {
 		text-align: center;
 	}
 
-	.content-popup {margin-top: 100px;}
+	.content-popup {margin-top: 110px;}
 
 	.item, .item iframe {width: calc(35% - 46px);}
 
