@@ -14,7 +14,7 @@ $(document).ready(function() {
 	
 	var urlPage = getQueryVariable("page");
 
-	var urlSort = $(location).prop('hash').substr(1);
+	//var urlSort = $(location).prop('hash').substr(1);
 	
 	(function($) {
 		$.fn.hasScrollBar = function() {
@@ -63,20 +63,19 @@ $(document).ready(function() {
 	
 	var $selectedSort = $('#default-sort');
 	
-	if (urlSort) {
-		urlSort = "." + urlSort;
-		$isotope.isotope({ filter: urlSort });
+	if (urlPage) {
+		urlPage = "." + urlPage;
+		$isotope.isotope({ filter: urlPage });
 	}
 
-	//if hash tag has no items, go to featured
 	if ($isotope.isotope('getFilteredItemElements').length) {
-		if ($(location).prop('hash').includes("#")) {
-			$selectedSort.removeClass("selected"); //
-			$selectedSort = $(".sort-menu li[data-id='"+urlSort+"']");
+		if (urlPage) {
+			$selectedSort.removeClass("selected");
+			$selectedSort = $(".sort-menu li[data-id='"+urlPage+"']");
 			$selectedSort.addClass("selected");
 		}
 	} 
-	else {
+	else { //if hash tag has no items, go to featured
 		$isotope.isotope({ filter: ".featured" });
 	}
 	
