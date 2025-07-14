@@ -170,7 +170,7 @@ $(document).ready(function() {
 	else if (urlPage == "contact")
 		$("#contact-button").click();
 	
-	$("#contactFormError").hide();
+	/*$("#contactFormError").hide();
 	$("#contactForm").submit(function(event) {
 		event.preventDefault();
 		
@@ -180,7 +180,7 @@ $(document).ready(function() {
 			$("#contactFormError").show("blind", 500);
 		else {
 			$.ajax({
-				url: "https://www.enformed.io/tb23sius",
+				url: "",
 				method: "post",
 				dataType: "json",
 				accepts: "application/json",
@@ -194,7 +194,7 @@ $(document).ready(function() {
 				}
 			});
 		}
-	});
+	});*/
 
 	$(window).resize(function() {
 		if ($(window).width() > 1280) {
