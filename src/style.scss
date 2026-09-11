@@ -106,7 +106,7 @@ a {
 		z-index: 9;
 		font-size: 1.3rem;
 
-		i, #topbar img {
+		i, img {
 			color: #B388EB;
 			vertical-align: middle;
 			display: inline-block;
@@ -118,6 +118,11 @@ a {
 			:hover {
 				color: #8f51e1;
 			}
+		}
+
+		img {
+			width: 33px;
+			height: auto;
 		}
 	}
 	
@@ -148,6 +153,13 @@ a {
 	i, img {
 		color: #B388EB;
 		margin: 0px 3px;
+	}
+
+	img {
+		width: 33px;
+		height: auto;
+		position: relative;
+		top: 7px;
 	}
 }
 
@@ -297,6 +309,11 @@ a {
 		color: #F7AEF8;
 		margin: 0 4px;
 	}
+	img {
+		height: 24px;
+		position: relative;
+		top: -1px;
+	}
 }
 
 .item:hover .item-bottom {opacity: 0.75;}
@@ -427,7 +444,8 @@ figure.shine {
 }
 
 .about-socials {
-	padding-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 15px;
 
 	a {
 		padding: 0 5px;

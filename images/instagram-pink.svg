@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 640 640"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="instagram.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.89161746"
+     inkscape:cx="265.80906"
+     inkscape:cy="337.02794"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <!--!Font Awesome Free v7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+  <path
+     id="path5"
+     style="display:inline;fill:#f7aef8;fill-opacity:1"
+     d="M 227.80078 97.400391 C 192.00078 99.100391 160.20039 107.3 133.90039 133.5 C 107.60039 159.7 99.499219 191.50039 97.699219 227.40039 C 95.599219 264.40039 95.599219 375.30078 97.699219 412.30078 C 99.399219 448.20078 107.60039 479.99922 133.90039 506.19922 C 160.20039 532.39922 191.90078 540.60039 227.80078 542.40039 C 264.80078 544.50039 375.69922 544.50039 412.69922 542.40039 C 448.59922 540.70039 480.39961 532.49922 506.59961 506.19922 C 532.79961 479.99922 541.00078 448.20078 542.80078 412.30078 C 544.90078 375.30078 544.90078 264.5 542.80078 227.5 C 541.10078 191.6 532.89961 159.79961 506.59961 133.59961 C 480.39961 107.39961 448.59922 99.200391 412.69922 97.400391 C 375.69922 95.300391 264.80078 95.300391 227.80078 97.400391 z M 439.90039 173.5 C 454.70039 173.5 466.69922 185.50078 466.69922 200.30078 C 466.69922 215.10078 454.70039 227.09961 439.90039 227.09961 C 425.10039 227.09961 413.09961 215.10078 413.09961 200.30078 C 413.09961 185.50078 425.10039 173.5 439.90039 173.5 z M 320.30078 205 C 383.80078 205.2 435.2 256.80078 435 320.30078 C 434.8 383.80078 383.19922 435.2 319.69922 435 C 256.19922 434.8 204.8 383.19922 205 319.69922 C 205.2 256.19922 256.80078 204.8 320.30078 205 z M 319.69922 245.40039 C 278.49922 245.60039 245.20039 279.10078 245.40039 320.30078 C 245.60039 361.50078 279.10078 394.79961 320.30078 394.59961 C 361.50078 394.39961 394.79961 360.89922 394.59961 319.69922 C 394.39961 278.49922 360.89922 245.20039 319.69922 245.40039 z " />
+</svg>
